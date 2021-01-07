@@ -121,3 +121,5 @@ export PS1 = "[\t]"
 
 # force tmux to use 256 color
 alias tmux="TERM=screen-256color-bce tmux"
+alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+
