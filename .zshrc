@@ -2,7 +2,7 @@
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" 
 fi
 
 # If you come from bash you might have to change your $PATH.
@@ -121,3 +121,13 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+alias cdd='cd ~/Documents'
+alias cdw='cd ~/Documents/Working'
+alias cdwind='cd /mnt/c/Users/Anak/Documents'
+alias cdwinw='cd /mnt/c/Users/Anak/PycharmProjects'
+cdl(){cd "$@" && ls;}
+
+stty -ixon
+
+export VISUAL=vim;
+export EDITOR=vim;

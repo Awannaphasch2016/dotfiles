@@ -122,3 +122,5 @@ export PS1 = "[\t]"
 # force tmux to use 256 color
 alias tmux="TERM=screen-256color-bce tmux"
 
+# disable CTRL-S default, which is a terminal command to freeze the output
+# stty -ixon
