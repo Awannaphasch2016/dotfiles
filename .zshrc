@@ -116,6 +116,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ll='colorls -lA --sd --group-directories-first'
 # alias ls='colorls --group-directories-first'
 source ~/powerlevel10k/powerlevel10k.zsh-theme
+# typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
+# export $POWERLEVEL9K_INSTANT_PROMPT=quiet
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -131,3 +133,10 @@ stty -ixon
 
 export VISUAL=vim;
 export EDITOR=vim;
+
+export NVM_DIR=~/.nvm
+# source $(brew --prefix nvm)/nvm.sh
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/home/awannaphasch2016/.linuxbrew/opt/nvm/nvm.sh" ] && . "/home/awannaphasch2016/.linuxbrew/opt/nvm/nvm.sh"  # This loads nvm
+    [ -s "/home/awannaphasch2016/.linuxbrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/home/awannaphasch2016/.linuxbrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+

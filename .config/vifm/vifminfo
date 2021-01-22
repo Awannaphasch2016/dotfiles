@@ -37,10 +37,6 @@
 	/
 	sys
 1610241170
-'z
-	/home/awannaphasch2016
-	Documents
-1610241146
 
 # Bookmarks:
 
@@ -54,75 +50,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/awannaphasch2016/.config
-	vifm
-10
-d/home/awannaphasch2016/.config/vifm
-	colors
-1
-d/home/awannaphasch2016/.config/vifm/colors
-	Default.vifm
-1
-d/home/awannaphasch2016/.config/vifm
-	colors
-1
-d/home/awannaphasch2016/.config
-	vifm
-10
-d/home
-	awannaphasch2016
-1
-d/
-	home
-6
-d/home
-	awannaphasch2016
-1
-d/
-	home
-6
-d/home/awannaphasch2016/anaconda3
-	pkgs
-1
-d/home/awannaphasch2016/anaconda3/pkgs
-	..
-0
-d/home/awannaphasch2016/anaconda3
-	pkgs
-1
-d/home
-	awannaphasch2016
-1
-d/home/awannaphasch2016/ctags
-	Tmain
-1
-d/home/awannaphasch2016/ctags/Tmain
-	abnormal-output-file-names.d
-1
-d/home/awannaphasch2016/ctags
-	Tmain
-1
-d/home/awannaphasch2016/CodeSnippets/Bash
-	Linux
-2
-d/home/awannaphasch2016
-	Documents
-2
-d/home/awannaphasch2016/Documents
-	..
-0
-d/home/awannaphasch2016
-	airflow
-6
-d/home/awannaphasch2016/airflow
-	..
-0
-d/home/awannaphasch2016
-	airflow
-6
-d/home/awannaphasch2016/airflow
-	logs
-1
 d/home/awannaphasch2016/airflow/logs
 	scheduler
 1
@@ -189,6 +116,240 @@ d/home/awannaphasch2016
 d/home/awannaphasch2016/vim
 	..
 0
+d/home/awannaphasch2016/Documents/Working/FAUCralwer
+	.venv
+2
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv
+	..
+0
+d/home/awannaphasch2016/Documents/Working/FAUCralwer
+	.vim
+3
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/.vim
+	..
+0
+d/home/awannaphasch2016/Documents/Working/FAUCralwer
+	.venv
+2
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv
+	bin
+1
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv/bin
+	activate
+3
+d/home/awannaphasch2016
+	tmp
+20
+d/home/awannaphasch2016/tmp
+	project
+1
+d/home/awannaphasch2016/tmp/project
+	..
+0
+d/home/awannaphasch2016/tmp
+	project
+1
+d/home/awannaphasch2016
+	.config
+4
+d/home/awannaphasch2016/.config
+	nvim
+7
+d/home/awannaphasch2016/.config/nvim
+	..
+0
+d/home/awannaphasch2016/.config
+	..
+0
+d/home/awannaphasch2016
+	.vim
+18
+d/home/awannaphasch2016/.vim
+	plugged
+3
+d/home/awannaphasch2016/.vim/plugged
+	vimspector
+30
+d/home/awannaphasch2016/.vim/plugged/vimspector
+	install_gadget.py
+24
+d/home/awannaphasch2016
+	.vim
+18
+d/mnt/c/Users/Anak
+	..
+0
+d/home/awannaphasch2016
+	.vim
+18
+d/home
+	awannaphasch2016
+1
+d/
+	usr
+24
+d/usr
+	bin
+1
+d/usr/bin
+	pydoc3.6
+23
+d/home/awannaphasch2016/Documents/Researches
+	..
+0
+d/home/awannaphasch2016/Documents
+	..
+0
+d/home/awannaphasch2016
+	CodeSnippets
+21
+d/home
+	awannaphasch2016
+1
+d/
+	mnt
+13
+d/mnt
+	c
+1
+d/mnt/c
+	Anak
+3
+d/mnt/c/Anak
+	..
+0
+d/mnt/c
+	Users
+18
+d/mnt/c/Users
+	Anak
+2
+d/mnt/c/Users/Anak
+	_viminfo
+34
+d/home/awannaphasch2016/Documents/Working/pandemic_tgnn/code
+	..
+0
+d/home/awannaphasch2016/Documents/Working/pandemic_tgnn
+	data
+3
+d/home/awannaphasch2016/Documents/Working/pandemic_tgnn/data
+	..
+0
+d/home/awannaphasch2016/Documents/Working/pandemic_tgnn
+	code
+2
+d/home/awannaphasch2016/Documents/Working/pandemic_tgnn/code
+	..
+0
+d/home/awannaphasch2016/Documents/Working/pandemic_tgnn
+	.git
+1
+d/home/awannaphasch2016/Documents/Working/pandemic_tgnn/.git
+	..
+0
+d/home/awannaphasch2016/Documents/Working/pandemic_tgnn
+	.git
+1
+d/home/awannaphasch2016
+	Documents
+22
+d/home/awannaphasch2016/Documents
+	Working
+3
+d/home/awannaphasch2016/Documents/Working
+	FAUCralwer
+1
+d/home/awannaphasch2016/Documents/Working/FAUCralwer
+	global_params.py
+7
+d/home/awannaphasch2016/.local/lib/python3.8/site-packages
+	aws_sam_cli-1.15.0.dist-info
+19
+d/home/awannaphasch2016/.local/lib/python3.8/site-packages/aws_sam_cli-1.15.0.dist-info
+	..
+0
+d/home/awannaphasch2016/.local/lib/python3.8/site-packages
+	aws_sam_translator-1.33.0.dist-info
+20
+d/home/awannaphasch2016/.local/lib/python3.8/site-packages/aws_sam_translator-1.33.0.dist-info
+	..
+0
+d/home/awannaphasch2016/.local/lib/python3.8/site-packages
+	samcli
+40
+d/home/awannaphasch2016/.local/lib/python3.8/site-packages/samcli
+	lib
+4
+d/home/awannaphasch2016/.local/lib/python3.8/site-packages/samcli/lib
+	build
+3
+d/home/awannaphasch2016/.local/lib/python3.8/site-packages/samcli/lib/build
+	..
+0
+d/home/awannaphasch2016/.local/lib/python3.8/site-packages/samcli/lib
+	build
+3
+d/home/awannaphasch2016/.local/lib/python3.8/site-packages/samcli
+	lib
+4
+d/home/awannaphasch2016/.local/lib/python3.8/site-packages
+	samcli
+40
+d/home/awannaphasch2016/.local/lib/python3.8/site-packages/samcli
+	local
+5
+d/home/awannaphasch2016/.local/lib/python3.8/site-packages
+	samcli
+29
+d/home/awannaphasch2016/.local/lib/python3.8/site-packages/samcli
+	lib
+4
+d/home/awannaphasch2016/.local/lib/python3.8/site-packages/samcli/lib
+	build
+3
+d/home/awannaphasch2016/.local/lib/python3.8/site-packages
+	samcli
+29
+d/home/awannaphasch2016/.local/lib/python3.8
+	site-packages
+1
+d/home/awannaphasch2016/.local/lib
+	python3.8
+2
+d/home/awannaphasch2016/.local
+	bin
+1
+d/home/awannaphasch2016/.local/bin
+	sam
+41
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples/Demos/AWS_Related/SAM/Example1
+	example_1
+1
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples/Demos/AWS_Related/SAM/Example1/example_1
+	.gitignore
+4
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples/Demos/AWS_Related/SAM
+	SAMAPIDynamo
+2
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples/Demos/AWS_Related/SAM/SAMAPIDynamo
+	..
+0
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples/Demos/AWS_Related/SAM/SAMAPIDynamo/hello_world
+	..
+0
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples/Demos/AWS_Related/SAM/SAMAPIDynamo
+	..
+0
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples/Demos/AWS_Related/SAM
+	..
+0
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples/Demos/AWS_Related
+	LambdaAPIDynamodb
+1
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples/Demos/AWS_Related/LambdaAPIDynamodb
+	script.sh
+18
 d
 
 # Right window history (oldest to newest):
@@ -214,8 +375,20 @@ D/mnt
 	..
 0
 D/
-	mnt
-13
+	home
+6
+D/home
+	awannaphasch2016
+1
+D/home/awannaphasch2016
+	Documents
+2
+D/home/awannaphasch2016/Documents
+	Researches
+2
+D/home/awannaphasch2016/Documents/Researches
+	..
+0
 D
 
 # Command line history (oldest to newest):
@@ -225,11 +398,22 @@ D
 
 # Search history (oldest to newest):
 /vifm
-/.config
 /etc
 /Code
 /mntljjjjjjjj
 /vim
+/tmp
+/.config
+/vimsp
+/ur
+/uslh
+/python3
+/Real
+/real
+/Working
+/Do
+/bin
+/sam
 
 # Prompt history (oldest to newest):
 photkeys.mdd
@@ -247,7 +431,7 @@ photkey
 # State:
 f
 i1
-[.1
+[.0
 [F
 F
 I1
