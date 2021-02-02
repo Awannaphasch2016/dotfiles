@@ -26,7 +26,7 @@
         "sysPrefix": "/usr",
         "fileHash": "0bdfc7c6a9733a54983e9eec1cc518a558580e53dd92be8268737bf7b554773471ad616939d55ca5de71642785d2e16df298a43c4da3cdae09ce0b8c68ed7389"
       },
-      "expiry": 1611261741510
+      "expiry": 1612213308508
     },
     "/bin/python2.v3": {
       "data": {
@@ -51,7 +51,7 @@
         "sysPrefix": "/usr",
         "fileHash": "9494de107e9a3bc992c270e29993f77b2bc3a646c92dffc97ff2ef9cad027ac44d5c96335de44fa5492957a0b6f41b7ab42ba8c3c2664e93e3c6b41dc822d7aa"
       },
-      "expiry": 1611261741562
+      "expiry": 1612213308510
     },
     "/usr/bin/python3.8.v3": {
       "data": {
@@ -76,7 +76,7 @@
         "sysPrefix": "/usr",
         "fileHash": "452f572ce5f5370426f83a6bf9df0b700fca1115baa49bc89f13eff7b9a028b49808424b31c188b1b38cf17949286289b76f0c548dad89003cfaa888b67b0541"
       },
-      "expiry": 1611261741566
+      "expiry": 1612213308515
     },
     "/usr/bin/python3.7.v3": {
       "data": {
@@ -101,7 +101,7 @@
         "sysPrefix": "/usr",
         "fileHash": "cce7a73cddee6ed6565332ac6a5e0c62cb9811ae47cffcd3c8a37443b1b1580bf5e67fa0284608620d9c962255fbe09e35bcd9cd3ef470d2fe66c601dabaad86"
       },
-      "expiry": 1611261741627
+      "expiry": 1612213308612
     },
     "/usr/bin/python3.6.v3": {
       "data": {
@@ -126,7 +126,7 @@
         "sysPrefix": "/usr",
         "fileHash": "f588635a73ea5336af6c4da8cdf4133f53c11c81d951ebb96aabe3390d38ddf63f64936cc0c118b328c4b5394805645ce7ee990cfa622da477b4cf1ef3d5fa5f"
       },
-      "expiry": 1611261741625
+      "expiry": 1612213308610
     },
     "/usr/bin/python3.v3": {
       "data": {
@@ -151,7 +151,7 @@
         "sysPrefix": "/usr",
         "fileHash": "6cb26890e809574a495e7917798a2753c9e26b287f93db6db9f3dc349b2ecdb5fc981fb9c85b230a54652ad5e5b75c17d949a26efd5f686ff0c58f159af70e33"
       },
-      "expiry": 1611261741580
+      "expiry": 1612213308520
     },
     "/usr/bin/python2.7.v3": {
       "data": {
@@ -176,7 +176,7 @@
         "sysPrefix": "/usr",
         "fileHash": "0bdfc7c6a9733a54983e9eec1cc518a558580e53dd92be8268737bf7b554773471ad616939d55ca5de71642785d2e16df298a43c4da3cdae09ce0b8c68ed7389"
       },
-      "expiry": 1611261741584
+      "expiry": 1612213308521
     },
     "/usr/bin/python2.v3": {
       "data": {
@@ -201,7 +201,7 @@
         "sysPrefix": "/usr",
         "fileHash": "9494de107e9a3bc992c270e29993f77b2bc3a646c92dffc97ff2ef9cad027ac44d5c96335de44fa5492957a0b6f41b7ab42ba8c3c2664e93e3c6b41dc822d7aa"
       },
-      "expiry": 1611261741620
+      "expiry": 1612213308608
     },
     "/bin/python3.8.v3": {
       "data": {
@@ -226,7 +226,7 @@
         "sysPrefix": "/usr",
         "fileHash": "452f572ce5f5370426f83a6bf9df0b700fca1115baa49bc89f13eff7b9a028b49808424b31c188b1b38cf17949286289b76f0c548dad89003cfaa888b67b0541"
       },
-      "expiry": 1611261741683
+      "expiry": 1612213308620
     },
     "/bin/python3.7.v3": {
       "data": {
@@ -251,7 +251,7 @@
         "sysPrefix": "/usr",
         "fileHash": "cce7a73cddee6ed6565332ac6a5e0c62cb9811ae47cffcd3c8a37443b1b1580bf5e67fa0284608620d9c962255fbe09e35bcd9cd3ef470d2fe66c601dabaad86"
       },
-      "expiry": 1611261741458
+      "expiry": 1612213308624
     },
     "/bin/python3.6.v3": {
       "data": {
@@ -276,7 +276,7 @@
         "sysPrefix": "/usr",
         "fileHash": "f588635a73ea5336af6c4da8cdf4133f53c11c81d951ebb96aabe3390d38ddf63f64936cc0c118b328c4b5394805645ce7ee990cfa622da477b4cf1ef3d5fa5f"
       },
-      "expiry": 1611261741475
+      "expiry": 1612213308626
     },
     "/bin/python3.v3": {
       "data": {
@@ -301,7 +301,7 @@
         "sysPrefix": "/usr",
         "fileHash": "6cb26890e809574a495e7917798a2753c9e26b287f93db6db9f3dc349b2ecdb5fc981fb9c85b230a54652ad5e5b75c17d949a26efd5f686ff0c58f159af70e33"
       },
-      "expiry": 1611261741487
+      "expiry": 1612213308507
     },
     "INTERPRETERS_CACHE_v3_CurrentPathService": [
       {
@@ -398,7 +398,7 @@
       },
       {
         "architecture": 3,
-        "path": "/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv/bin/python3",
+        "path": "/usr/bin/python",
         "version": {
           "options": {
             "loose": false,
@@ -415,12 +415,58 @@
           "build": [],
           "version": "3.8.5-final"
         },
-        "sysPrefix": "/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv",
-        "fileHash": "c3f94315e0317fe98b56eb62b6abcebd8d1c84a4ae9aa121f1bd9c93ca74f3ef00314d4fd971b0d6e83d3acd0956cf932edf18b9cb94f85a2b2729a6d2d8ecba",
+        "sysPrefix": "/usr",
+        "fileHash": "1b026f2bb7022a57650456e5f84e083b5bae963864d93ae6ddedb52d8660df0502010185b2d029dff8fe1fb5c3aa4a7ffe003ed2f6b3a7b865d6a4a1129513a8",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter/linux_env/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter/linux_env",
+        "fileHash": "30c3e0b0ac3eca347bce122a3752600e36acb3abe0951e7dcab882a93257fc5cc7c967c1482c379669918b19dc136b91258926f0b4f2ba0581127c92918f743a",
         "type": "Unknown"
       }
     ],
     "INTERPRETERS_CACHE_v3_KnownPathsService": [
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "1b026f2bb7022a57650456e5f84e083b5bae963864d93ae6ddedb52d8660df0502010185b2d029dff8fe1fb5c3aa4a7ffe003ed2f6b3a7b865d6a4a1129513a8",
+        "type": "Unknown"
+      },
       {
         "architecture": 3,
         "path": "/usr/bin/python2",
@@ -557,6 +603,29 @@
         },
         "sysPrefix": "/usr",
         "fileHash": "452f572ce5f5370426f83a6bf9df0b700fca1115baa49bc89f13eff7b9a028b49808424b31c188b1b38cf17949286289b76f0c548dad89003cfaa888b67b0541",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "1b026f2bb7022a57650456e5f84e083b5bae963864d93ae6ddedb52d8660df0502010185b2d029dff8fe1fb5c3aa4a7ffe003ed2f6b3a7b865d6a4a1129513a8",
         "type": "Unknown"
       },
       {
@@ -699,6 +768,29 @@
       },
       {
         "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "1b026f2bb7022a57650456e5f84e083b5bae963864d93ae6ddedb52d8660df0502010185b2d029dff8fe1fb5c3aa4a7ffe003ed2f6b3a7b865d6a4a1129513a8",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
         "path": "/usr/bin/python2",
         "version": {
           "options": {
@@ -833,6 +925,29 @@
         },
         "sysPrefix": "/usr",
         "fileHash": "452f572ce5f5370426f83a6bf9df0b700fca1115baa49bc89f13eff7b9a028b49808424b31c188b1b38cf17949286289b76f0c548dad89003cfaa888b67b0541",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "1b026f2bb7022a57650456e5f84e083b5bae963864d93ae6ddedb52d8660df0502010185b2d029dff8fe1fb5c3aa4a7ffe003ed2f6b3a7b865d6a4a1129513a8",
         "type": "Unknown"
       },
       {
@@ -980,56 +1095,56 @@
         "displayName": "Python 2.7.18 64-bit",
         "hash": "9494de107e9a3bc992c270e29993f77b2bc3a646c92dffc97ff2ef9cad027ac44d5c96335de44fa5492957a0b6f41b7ab42ba8c3c2664e93e3c6b41dc822d7aa-864856b5bd17071bf98b5973623f9b03"
       },
-      "expiry": 1611261741717
+      "expiry": 1612213308651
     },
     "/usr/bin/python3.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 3.8.5 64-bit",
         "hash": "6cb26890e809574a495e7917798a2753c9e26b287f93db6db9f3dc349b2ecdb5fc981fb9c85b230a54652ad5e5b75c17d949a26efd5f686ff0c58f159af70e33-e30b829c4431a0d753e30dba51e0db51"
       },
-      "expiry": 1611261741721
+      "expiry": 1612028766326
     },
     "/usr/bin/python3.6.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 3.6.12 64-bit",
         "hash": "f588635a73ea5336af6c4da8cdf4133f53c11c81d951ebb96aabe3390d38ddf63f64936cc0c118b328c4b5394805645ce7ee990cfa622da477b4cf1ef3d5fa5f-4576bacbebdb5f24db73342626f80b71"
       },
-      "expiry": 1611261741723
+      "expiry": 1612213308656
     },
     "/usr/bin/python3.7.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 3.7.9 64-bit",
         "hash": "cce7a73cddee6ed6565332ac6a5e0c62cb9811ae47cffcd3c8a37443b1b1580bf5e67fa0284608620d9c962255fbe09e35bcd9cd3ef470d2fe66c601dabaad86-98430305dd4349f3ac50eadb349a130a"
       },
-      "expiry": 1611261741725
+      "expiry": 1612213308660
     },
     "/bin/python2.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 2.7.18 64-bit",
         "hash": "9494de107e9a3bc992c270e29993f77b2bc3a646c92dffc97ff2ef9cad027ac44d5c96335de44fa5492957a0b6f41b7ab42ba8c3c2664e93e3c6b41dc822d7aa-2fc55d8188e671e672e7d5a553ba95c8"
       },
-      "expiry": 1611261741727
+      "expiry": 1612213308665
     },
     "/bin/python3.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 3.8.5 64-bit",
         "hash": "6cb26890e809574a495e7917798a2753c9e26b287f93db6db9f3dc349b2ecdb5fc981fb9c85b230a54652ad5e5b75c17d949a26efd5f686ff0c58f159af70e33-ba5dce7b9347dec95ccb1ffd35581e6b"
       },
-      "expiry": 1611261741741
+      "expiry": 1612028766372
     },
     "/bin/python3.6.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 3.6.12 64-bit",
         "hash": "f588635a73ea5336af6c4da8cdf4133f53c11c81d951ebb96aabe3390d38ddf63f64936cc0c118b328c4b5394805645ce7ee990cfa622da477b4cf1ef3d5fa5f-5edc4953b8fa7cc753c95cbe8e436b18"
       },
-      "expiry": 1611261741751
+      "expiry": 1612213308668
     },
     "/bin/python3.7.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 3.7.9 64-bit",
         "hash": "cce7a73cddee6ed6565332ac6a5e0c62cb9811ae47cffcd3c8a37443b1b1580bf5e67fa0284608620d9c962255fbe09e35bcd9cd3ef470d2fe66c601dabaad86-9fbfc294a40c03b5e61c116ff2259f2a"
       },
-      "expiry": 1611261741760
+      "expiry": 1612213308672
     },
     "/usr/bin/python2.interpreter.Details.v7": {
       "data": {
@@ -1059,7 +1174,7 @@
           "displayName": "Python 2.7.18 64-bit"
         }
       },
-      "expiry": 1611261741833
+      "expiry": 1612213308702
     },
     "/usr/bin/python3.interpreter.Details.v7": {
       "data": {
@@ -1089,7 +1204,7 @@
           "displayName": "Python 3.8.5 64-bit"
         }
       },
-      "expiry": 1611261741844
+      "expiry": 1612028766666
     },
     "/usr/bin/python3.6.interpreter.Details.v7": {
       "data": {
@@ -1119,7 +1234,7 @@
           "displayName": "Python 3.6.12 64-bit"
         }
       },
-      "expiry": 1611261741856
+      "expiry": 1612213308707
     },
     "/usr/bin/python3.7.interpreter.Details.v7": {
       "data": {
@@ -1149,7 +1264,7 @@
           "displayName": "Python 3.7.9 64-bit"
         }
       },
-      "expiry": 1611261741866
+      "expiry": 1612213308711
     },
     "/bin/python2.interpreter.Details.v7": {
       "data": {
@@ -1179,7 +1294,7 @@
           "displayName": "Python 2.7.18 64-bit"
         }
       },
-      "expiry": 1611261741878
+      "expiry": 1612213308718
     },
     "/bin/python3.interpreter.Details.v7": {
       "data": {
@@ -1209,7 +1324,7 @@
           "displayName": "Python 3.8.5 64-bit"
         }
       },
-      "expiry": 1611261741888
+      "expiry": 1612028766760
     },
     "/bin/python3.6.interpreter.Details.v7": {
       "data": {
@@ -1239,7 +1354,7 @@
           "displayName": "Python 3.6.12 64-bit"
         }
       },
-      "expiry": 1611261741901
+      "expiry": 1612213308723
     },
     "/bin/python3.7.interpreter.Details.v7": {
       "data": {
@@ -1269,7 +1384,7 @@
           "displayName": "Python 3.7.9 64-bit"
         }
       },
-      "expiry": 1611261741911
+      "expiry": 1612213308728
     },
     "InterpreterAutoSeletionRule-currentPath": {
       "architecture": 3,
@@ -1319,7 +1434,7 @@
     },
     "InterpreterAutoSeletionRule-system": {
       "architecture": 3,
-      "path": "/bin/python3",
+      "path": "/bin/python",
       "version": {
         "options": {
           "loose": false,
@@ -1337,13 +1452,13 @@
         "version": "3.8.5-final"
       },
       "sysPrefix": "/usr",
-      "fileHash": "6cb26890e809574a495e7917798a2753c9e26b287f93db6db9f3dc349b2ecdb5fc981fb9c85b230a54652ad5e5b75c17d949a26efd5f686ff0c58f159af70e33",
+      "fileHash": "1b026f2bb7022a57650456e5f84e083b5bae963864d93ae6ddedb52d8660df0502010185b2d029dff8fe1fb5c3aa4a7ffe003ed2f6b3a7b865d6a4a1129513a8",
       "type": "Unknown",
       "displayName": "Python 3.8.5 64-bit"
     },
     "InterpreterAutoSeletionRule-cachedInterpreters": {
       "architecture": 3,
-      "path": "/bin/python3",
+      "path": "/bin/python",
       "version": {
         "options": {
           "loose": false,
@@ -1361,7 +1476,7 @@
         "version": "3.8.5-final"
       },
       "sysPrefix": "/usr",
-      "fileHash": "6cb26890e809574a495e7917798a2753c9e26b287f93db6db9f3dc349b2ecdb5fc981fb9c85b230a54652ad5e5b75c17d949a26efd5f686ff0c58f159af70e33",
+      "fileHash": "1b026f2bb7022a57650456e5f84e083b5bae963864d93ae6ddedb52d8660df0502010185b2d029dff8fe1fb5c3aa4a7ffe003ed2f6b3a7b865d6a4a1129513a8",
       "type": "Unknown",
       "displayName": "Python 3.8.5 64-bit"
     },
@@ -1389,7 +1504,7 @@
         "sysPrefix": "/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv",
         "fileHash": "c3f94315e0317fe98b56eb62b6abcebd8d1c84a4ae9aa121f1bd9c93ca74f3ef00314d4fd971b0d6e83d3acd0956cf932edf18b9cb94f85a2b2729a6d2d8ecba"
       },
-      "expiry": 1611351794623
+      "expiry": 1612209076984
     },
     "/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv/bin/python.v3": {
       "data": {
@@ -1414,14 +1529,14 @@
         "sysPrefix": "/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv",
         "fileHash": "c3f94315e0317fe98b56eb62b6abcebd8d1c84a4ae9aa121f1bd9c93ca74f3ef00314d4fd971b0d6e83d3acd0956cf932edf18b9cb94f85a2b2729a6d2d8ecba"
       },
-      "expiry": 1611261741679
+      "expiry": 1612213308617
     },
     "/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv/bin/python.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 3.8.5 64-bit ('.venv': venv)",
         "hash": "c3f94315e0317fe98b56eb62b6abcebd8d1c84a4ae9aa121f1bd9c93ca74f3ef00314d4fd971b0d6e83d3acd0956cf932edf18b9cb94f85a2b2729a6d2d8ecba-1f84e871c1fe63aa909c390e4762c1d1"
       },
-      "expiry": 1611261741714
+      "expiry": 1612223058626
     },
     "/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv/bin/python.interpreter.Details.v7": {
       "data": {
@@ -1447,16 +1562,15 @@
           },
           "sysPrefix": "/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv",
           "fileHash": "c3f94315e0317fe98b56eb62b6abcebd8d1c84a4ae9aa121f1bd9c93ca74f3ef00314d4fd971b0d6e83d3acd0956cf932edf18b9cb94f85a2b2729a6d2d8ecba",
-          "envName": ".venv",
-          "type": "Venv",
-          "displayName": "Python 3.8.5 64-bit ('.venv': venv)"
+          "type": "Unknown",
+          "displayName": "Python 3.8.5 64-bit"
         }
       },
-      "expiry": 1611261741812
+      "expiry": 1612223012352
     },
     "InterpreterAutoSeletionRule-workspaceEnvs": {
       "architecture": 3,
-      "path": "/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv/bin/python3",
+      "path": "/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter/linux_env/bin/python3.8",
       "version": {
         "options": {
           "loose": false,
@@ -1473,23 +1587,23 @@
         "build": [],
         "version": "3.8.5-final"
       },
-      "sysPrefix": "/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv",
-      "fileHash": "c3f94315e0317fe98b56eb62b6abcebd8d1c84a4ae9aa121f1bd9c93ca74f3ef00314d4fd971b0d6e83d3acd0956cf932edf18b9cb94f85a2b2729a6d2d8ecba",
-      "envName": ".venv",
+      "sysPrefix": "/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter/linux_env",
+      "fileHash": "30c3e0b0ac3eca347bce122a3752600e36acb3abe0951e7dcab882a93257fc5cc7c967c1482c379669918b19dc136b91258926f0b4f2ba0581127c92918f743a",
+      "envName": "linux_env",
       "type": "Venv"
     },
     "/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv/bin/python3.interpreter.Details.v7": {
       "data": {
         "fileHash": "c3f94315e0317fe98b56eb62b6abcebd8d1c84a4ae9aa121f1bd9c93ca74f3ef00314d4fd971b0d6e83d3acd0956cf932edf18b9cb94f85a2b2729a6d2d8ecba"
       },
-      "expiry": 1611351794506
+      "expiry": 1612209076832
     },
     "/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv/bin/python3.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 3.8.5 64-bit ('.venv': venv)",
         "hash": "c3f94315e0317fe98b56eb62b6abcebd8d1c84a4ae9aa121f1bd9c93ca74f3ef00314d4fd971b0d6e83d3acd0956cf932edf18b9cb94f85a2b2729a6d2d8ecba-c7ff6ac38193c38d454979465b31f583"
       },
-      "expiry": 1611261741957
+      "expiry": 1612209553040
     },
     "InterpreterAutoSeletionRule-environment": {
       "architecture": 3,
@@ -1537,7 +1651,7 @@
         "sysPrefix": "/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter/linux_env",
         "fileHash": "30c3e0b0ac3eca347bce122a3752600e36acb3abe0951e7dcab882a93257fc5cc7c967c1482c379669918b19dc136b91258926f0b4f2ba0581127c92918f743a"
       },
-      "expiry": 1610409332773
+      "expiry": 1612213567341
     },
     "/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter/linux_env/bin/python.v3": {
       "data": {
@@ -1562,7 +1676,7 @@
         "sysPrefix": "/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter/linux_env",
         "fileHash": "a846c0866c8f416dcf6e929771475152c873d37acad22beae43184e504506a04016a11afbb2b1c5e8145dc90ab7f588468dd2f4e354f0948e26919aa9c117dcc"
       },
-      "expiry": 1610409332775
+      "expiry": 1612213566611
     },
     "/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter/linux_env/bin/python3.v3": {
       "data": {
@@ -1587,14 +1701,14 @@
         "sysPrefix": "/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter/linux_env",
         "fileHash": "abf1d0c77b2adaee3e824ddc2be0a6ba9a5fff19e0d14d0ae62aeda440947abb25c6920bc304ef5638db9f79db03fe0b1365c27e2834a5084bd51b36f419444c"
       },
-      "expiry": 1610409332782
+      "expiry": 1612213566600
     },
     "/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter/linux_env/bin/python.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 3.8.5 64-bit ('linux_env': venv)",
         "hash": "a846c0866c8f416dcf6e929771475152c873d37acad22beae43184e504506a04016a11afbb2b1c5e8145dc90ab7f588468dd2f4e354f0948e26919aa9c117dcc-fed3308c0d5f972464606f3acf7638f7"
       },
-      "expiry": 1610409332831
+      "expiry": 1612213567526
     },
     "/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter/linux_env/bin/python.interpreter.Details.v7": {
       "data": {
@@ -1625,20 +1739,20 @@
           "displayName": "Python 3.8.5 64-bit ('linux_env': venv)"
         }
       },
-      "expiry": 1610409332838
+      "expiry": 1612213567613
     },
     "/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter/linux_env/bin/python3.8.interpreter.Details.v7": {
       "data": {
         "fileHash": "30c3e0b0ac3eca347bce122a3752600e36acb3abe0951e7dcab882a93257fc5cc7c967c1482c379669918b19dc136b91258926f0b4f2ba0581127c92918f743a"
       },
-      "expiry": 1610409336655
+      "expiry": 1612213567563
     },
     "/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter/linux_env/bin/python3.8.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 3.8.5 64-bit ('linux_env': venv)",
         "hash": "30c3e0b0ac3eca347bce122a3752600e36acb3abe0951e7dcab882a93257fc5cc7c967c1482c379669918b19dc136b91258926f0b4f2ba0581127c92918f743a-7c7226aae68cf54fc2eae05218b372bc"
       },
-      "expiry": 1610409338661
+      "expiry": 1612213568370
     },
     "/home/awannaphasch2016/Documents/Working/pandemic_tgnn/code/.venv/bin/python3.v3": {
       "data": {
@@ -1739,6 +1853,130 @@
         "hash": "0236f7c07a9fa602d7ac2e4b9798526bb631c8db73f1c7a0ce465a5ba1c9310c9f7799b5e6fef40e9f6753feb17032a81bee08ea6e5ad5cf8e15c5b803db4b02-7d5d6f6b5364c5fa9f92802b6849fab0"
       },
       "expiry": 1611023787748
+    },
+    "/usr/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "1b026f2bb7022a57650456e5f84e083b5bae963864d93ae6ddedb52d8660df0502010185b2d029dff8fe1fb5c3aa4a7ffe003ed2f6b3a7b865d6a4a1129513a8"
+      },
+      "expiry": 1612217084180
+    },
+    "/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "1b026f2bb7022a57650456e5f84e083b5bae963864d93ae6ddedb52d8660df0502010185b2d029dff8fe1fb5c3aa4a7ffe003ed2f6b3a7b865d6a4a1129513a8"
+      },
+      "expiry": 1612217084195
+    },
+    "/usr/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.5 64-bit",
+        "hash": "1b026f2bb7022a57650456e5f84e083b5bae963864d93ae6ddedb52d8660df0502010185b2d029dff8fe1fb5c3aa4a7ffe003ed2f6b3a7b865d6a4a1129513a8-1de2b2f36f6d9bc1629cf60d3e1c9a9c"
+      },
+      "expiry": 1612217084521
+    },
+    "/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.5 64-bit",
+        "hash": "1b026f2bb7022a57650456e5f84e083b5bae963864d93ae6ddedb52d8660df0502010185b2d029dff8fe1fb5c3aa4a7ffe003ed2f6b3a7b865d6a4a1129513a8-0874c7b0fa45d2dc8ca55287591eee59"
+      },
+      "expiry": 1612217084545
+    },
+    "/usr/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "1b026f2bb7022a57650456e5f84e083b5bae963864d93ae6ddedb52d8660df0502010185b2d029dff8fe1fb5c3aa4a7ffe003ed2f6b3a7b865d6a4a1129513a8",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.5-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 5,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.5-final"
+          },
+          "sysPrefix": "/usr",
+          "fileHash": "1b026f2bb7022a57650456e5f84e083b5bae963864d93ae6ddedb52d8660df0502010185b2d029dff8fe1fb5c3aa4a7ffe003ed2f6b3a7b865d6a4a1129513a8",
+          "type": "Unknown",
+          "displayName": "Python 3.8.5 64-bit"
+        }
+      },
+      "expiry": 1612217084630
+    },
+    "/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "1b026f2bb7022a57650456e5f84e083b5bae963864d93ae6ddedb52d8660df0502010185b2d029dff8fe1fb5c3aa4a7ffe003ed2f6b3a7b865d6a4a1129513a8",
+        "info": {
+          "architecture": 3,
+          "path": "/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.5-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 5,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.5-final"
+          },
+          "sysPrefix": "/usr",
+          "fileHash": "1b026f2bb7022a57650456e5f84e083b5bae963864d93ae6ddedb52d8660df0502010185b2d029dff8fe1fb5c3aa4a7ffe003ed2f6b3a7b865d6a4a1129513a8",
+          "type": "Unknown",
+          "displayName": "Python 3.8.5 64-bit"
+        }
+      },
+      "expiry": 1612217084650
     }
   },
   "coc-python|/home/awannaphasch2016/tmp/project": {
@@ -1877,8 +2115,7 @@
       },
       "sysPrefix": "/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv",
       "fileHash": "c3f94315e0317fe98b56eb62b6abcebd8d1c84a4ae9aa121f1bd9c93ca74f3ef00314d4fd971b0d6e83d3acd0956cf932edf18b9cb94f85a2b2729a6d2d8ecba",
-      "envName": ".venv",
-      "type": "Venv"
+      "type": "VirtualEnv"
     },
     "INTERPRETERS_CACHE_v3_PipEnvService": [],
     "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [
@@ -1928,6 +2165,81 @@
         "sysPrefix": "/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv",
         "fileHash": "c3f94315e0317fe98b56eb62b6abcebd8d1c84a4ae9aa121f1bd9c93ca74f3ef00314d4fd971b0d6e83d3acd0956cf932edf18b9cb94f85a2b2729a6d2d8ecba",
         "envName": ".venv",
+        "type": "Venv"
+      }
+    ],
+    "INTERPRETERS_CACHE_v3_PipEnvService:a0684020246b0219d2089169d7406115": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:a0684020246b0219d2089169d7406115": [
+      {
+        "architecture": 3,
+        "path": "/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter/linux_env/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter/linux_env",
+        "fileHash": "a846c0866c8f416dcf6e929771475152c873d37acad22beae43184e504506a04016a11afbb2b1c5e8145dc90ab7f588468dd2f4e354f0948e26919aa9c117dcc",
+        "envName": "linux_env",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter/linux_env/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter/linux_env",
+        "fileHash": "abf1d0c77b2adaee3e824ddc2be0a6ba9a5fff19e0d14d0ae62aeda440947abb25c6920bc304ef5638db9f79db03fe0b1365c27e2834a5084bd51b36f419444c",
+        "envName": "linux_env",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter/linux_env/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter/linux_env",
+        "fileHash": "30c3e0b0ac3eca347bce122a3752600e36acb3abe0951e7dcab882a93257fc5cc7c967c1482c379669918b19dc136b91258926f0b4f2ba0581127c92918f743a",
+        "envName": "linux_env",
         "type": "Venv"
       }
     ]
@@ -2136,7 +2448,132 @@
       "type": "Unknown"
     },
     "INTERPRETERS_CACHE_v3_PipEnvService": [],
-    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv",
+        "fileHash": "c3f94315e0317fe98b56eb62b6abcebd8d1c84a4ae9aa121f1bd9c93ca74f3ef00314d4fd971b0d6e83d3acd0956cf932edf18b9cb94f85a2b2729a6d2d8ecba",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv",
+        "fileHash": "c3f94315e0317fe98b56eb62b6abcebd8d1c84a4ae9aa121f1bd9c93ca74f3ef00314d4fd971b0d6e83d3acd0956cf932edf18b9cb94f85a2b2729a6d2d8ecba",
+        "envName": ".venv",
+        "type": "Venv"
+      }
+    ],
+    "INTERPRETERS_CACHE_v3_PipEnvService:ba38852a3bc68c8efb0242f16a43f7bf": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:ba38852a3bc68c8efb0242f16a43f7bf": [
+      {
+        "architecture": 3,
+        "path": "/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv",
+        "fileHash": "c3f94315e0317fe98b56eb62b6abcebd8d1c84a4ae9aa121f1bd9c93ca74f3ef00314d4fd971b0d6e83d3acd0956cf932edf18b9cb94f85a2b2729a6d2d8ecba",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv",
+        "fileHash": "c3f94315e0317fe98b56eb62b6abcebd8d1c84a4ae9aa121f1bd9c93ca74f3ef00314d4fd971b0d6e83d3acd0956cf932edf18b9cb94f85a2b2729a6d2d8ecba",
+        "envName": ".venv",
+        "type": "Venv"
+      }
+    ],
+    "SelectedPythonPath": "/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv/bin/python3",
+    "autoSelectedWorkspacePythonInterpreter-/home/awannaphasch2016/Documents/Working/FAUCralwer": {
+      "architecture": 3,
+      "path": "/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv",
+      "fileHash": "c3f94315e0317fe98b56eb62b6abcebd8d1c84a4ae9aa121f1bd9c93ca74f3ef00314d4fd971b0d6e83d3acd0956cf932edf18b9cb94f85a2b2729a6d2d8ecba",
+      "envName": ".venv",
+      "type": "Venv"
+    }
   },
   "coc-python|/home/awannaphasch2016/Documents/Working/pandemic_tgnn": {
     "INTERPRETERS_CACHE_v3_PipEnvService:b77f79b25b4a660f760cd3438a5e7b07": [],
@@ -2167,5 +2604,207 @@
     "INTERPRETERS_CACHE_v3_PipEnvService": [],
     "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
     "SelectedPythonPath": "/home/awannaphasch2016/Documents/Working/pandemic_tgnn/code/.venv/bin/python3"
+  },
+  "coc-python|/home/awannaphasch2016/ScratchPad": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:1de253f599b1d0be51d95f62f232f9f0": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:1de253f599b1d0be51d95f62f232f9f0": [],
+    "autoSelectedWorkspacePythonInterpreter-/home/awannaphasch2016/ScratchPad": {
+      "architecture": 3,
+      "path": "/usr/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "6cb26890e809574a495e7917798a2753c9e26b287f93db6db9f3dc349b2ecdb5fc981fb9c85b230a54652ad5e5b75c17d949a26efd5f686ff0c58f159af70e33",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService:265f93b895a879f8652838c3600d1908": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:265f93b895a879f8652838c3600d1908": []
+  },
+  "coc-python|/mnt/c/Users/Anak/Downloads": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:cd378fa28b202f89792302730fdcc174": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:cd378fa28b202f89792302730fdcc174": [],
+    "autoSelectedWorkspacePythonInterpreter-/mnt/c/Users/Anak/Downloads": {
+      "architecture": 3,
+      "path": "/usr/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "6cb26890e809574a495e7917798a2753c9e26b287f93db6db9f3dc349b2ecdb5fc981fb9c85b230a54652ad5e5b75c17d949a26efd5f686ff0c58f159af70e33",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/mnt/c/Users/Anak/Downloads/yoyoyoyoyoyoyoyoyo": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:15a7ffb3bd8da99984839d7335da7af8": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:15a7ffb3bd8da99984839d7335da7af8": [],
+    "autoSelectedWorkspacePythonInterpreter-/mnt/c/Users/Anak/Downloads/yoyoyoyoyoyoyoyoyo": {
+      "architecture": 3,
+      "path": "/usr/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "6cb26890e809574a495e7917798a2753c9e26b287f93db6db9f3dc349b2ecdb5fc981fb9c85b230a54652ad5e5b75c17d949a26efd5f686ff0c58f159af70e33",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Scratches": {
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "SelectedPythonPath": "/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv/bin/python3",
+    "INTERPRETERS_CACHE_v3_PipEnvService:ba38852a3bc68c8efb0242f16a43f7bf": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:ba38852a3bc68c8efb0242f16a43f7bf": [
+      {
+        "architecture": 3,
+        "path": "/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv",
+        "fileHash": "c3f94315e0317fe98b56eb62b6abcebd8d1c84a4ae9aa121f1bd9c93ca74f3ef00314d4fd971b0d6e83d3acd0956cf932edf18b9cb94f85a2b2729a6d2d8ecba",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv",
+        "fileHash": "c3f94315e0317fe98b56eb62b6abcebd8d1c84a4ae9aa121f1bd9c93ca74f3ef00314d4fd971b0d6e83d3acd0956cf932edf18b9cb94f85a2b2729a6d2d8ecba",
+        "envName": ".venv",
+        "type": "Venv"
+      }
+    ]
+  },
+  "coc-python|/home/awannaphasch2016/ScratchPad/src": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:265f93b895a879f8652838c3600d1908": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:265f93b895a879f8652838c3600d1908": [],
+    "autoSelectedWorkspacePythonInterpreter-/home/awannaphasch2016/ScratchPad/src": {
+      "architecture": 3,
+      "path": "/usr/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "6cb26890e809574a495e7917798a2753c9e26b287f93db6db9f3dc349b2ecdb5fc981fb9c85b230a54652ad5e5b75c17d949a26efd5f686ff0c58f159af70e33",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/usr/local/lib/python3.8/dist-packages/pyspark": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:0557abc6ebf16980835de5416b23b561": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:0557abc6ebf16980835de5416b23b561": [],
+    "autoSelectedWorkspacePythonInterpreter-/usr/local/lib/python3.8/dist-packages/pyspark": {
+      "architecture": 3,
+      "path": "/usr/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "6cb26890e809574a495e7917798a2753c9e26b287f93db6db9f3dc349b2ecdb5fc981fb9c85b230a54652ad5e5b75c17d949a26efd5f686ff0c58f159af70e33",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
   }
 }

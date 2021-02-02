@@ -42,7 +42,7 @@
 
 # TUI:
 al
-q0
+q1
 v2
 ov
 m-1
@@ -50,147 +50,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/awannaphasch2016/airflow/logs
-	scheduler
-1
-d/home/awannaphasch2016/airflow/logs/scheduler
-	..
-0
-d/home/awannaphasch2016/airflow/logs
-	scheduler
-1
-d/home/awannaphasch2016/airflow
-	logs
-1
-d/home/awannaphasch2016
-	CodeSnippets
-1
-d/home/awannaphasch2016/CodeSnippets
-	Linux
-2
-d/home/awannaphasch2016/CodeSnippets/Linux
-	..
-0
-d/home/awannaphasch2016/CodeSnippets
-	Linux
-2
-d/home/awannaphasch2016
-	CodeSnippets
-1
-d/home/awannaphasch2016/CodeSnippets
-	Linux
-2
-d/home/awannaphasch2016
-	CodeSnippets
-1
-d/home/awannaphasch2016/CodeSnippets
-	Linux
-2
-d/home/awannaphasch2016
-	CodeSnippets
-1
-d/home/awannaphasch2016/CodeSnippets
-	Linux
-2
-d/home/awannaphasch2016/Documents/Working
-	..
-0
-d/home/awannaphasch2016/Documents
-	Working
-2
-d/home/awannaphasch2016
-	Documents
-2
-d/home
-	awannaphasch2016
-1
-d/
-	home
-6
-d/home
-	awannaphasch2016
-1
-d/home/awannaphasch2016
-	vim
-13
-d/home/awannaphasch2016/vim
-	..
-0
-d/home/awannaphasch2016/Documents/Working/FAUCralwer
-	.venv
-2
-d/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv
-	..
-0
-d/home/awannaphasch2016/Documents/Working/FAUCralwer
-	.vim
-3
-d/home/awannaphasch2016/Documents/Working/FAUCralwer/.vim
-	..
-0
-d/home/awannaphasch2016/Documents/Working/FAUCralwer
-	.venv
-2
-d/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv
-	bin
-1
-d/home/awannaphasch2016/Documents/Working/FAUCralwer/.venv/bin
-	activate
-3
-d/home/awannaphasch2016
-	tmp
-20
-d/home/awannaphasch2016/tmp
-	project
-1
-d/home/awannaphasch2016/tmp/project
-	..
-0
-d/home/awannaphasch2016/tmp
-	project
-1
-d/home/awannaphasch2016
-	.config
-4
-d/home/awannaphasch2016/.config
-	nvim
-7
-d/home/awannaphasch2016/.config/nvim
-	..
-0
-d/home/awannaphasch2016/.config
-	..
-0
-d/home/awannaphasch2016
-	.vim
-18
-d/home/awannaphasch2016/.vim
-	plugged
-3
-d/home/awannaphasch2016/.vim/plugged
-	vimspector
-30
-d/home/awannaphasch2016/.vim/plugged/vimspector
-	install_gadget.py
-24
-d/home/awannaphasch2016
-	.vim
-18
-d/mnt/c/Users/Anak
-	..
-0
-d/home/awannaphasch2016
-	.vim
-18
-d/home
-	awannaphasch2016
-1
-d/
-	usr
-24
-d/usr
-	bin
-1
 d/usr/bin
 	pydoc3.6
 23
@@ -350,6 +209,147 @@ d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Exampl
 d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples/Demos/AWS_Related/LambdaAPIDynamodb
 	script.sh
 18
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/src/LambdaAPIDynamodb/gettopn
+	dateutil
+7
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS
+	Examples
+1
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples
+	Demos
+1
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples/Demos
+	AWS_Related
+1
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples/Demos/AWS_Related
+	Old
+2
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples/Demos/AWS_Related/Old
+	..
+0
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples/Demos/AWS_Related
+	Old
+2
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples/Demos
+	AWS_Related
+1
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples
+	Demos
+1
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS
+	Examples
+1
+d/home/awannaphasch2016/Documents/Working/FAUCralwer
+	TwitterStreamWithAWS
+4
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS
+	Examples
+1
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples
+	Demos
+1
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples/Demos
+	AWS_Related
+1
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples/Demos/AWS_Related
+	Old
+2
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples/Demos/AWS_Related/Old
+	..
+0
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples/Demos/AWS_Related
+	Old
+2
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples/Demos/AWS_Related/Old
+	..
+0
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS
+	Examples
+1
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples
+	Demos
+1
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples/Demos
+	..
+0
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples
+	Demos
+1
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples/Demos
+	AWS_Related
+1
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples/Demos/AWS_Related
+	Old
+2
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples/Demos/AWS_Related/Old
+	FAUCovidStreamDemo
+1
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples/Demos/AWS_Related/Old/FAUCovidStreamDemo
+	__init__.py
+2
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples/Demos/AWS_Related/Old
+	FAUCovidStreamDemo
+1
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples/Demos/AWS_Related
+	Old
+2
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples/Demos
+	AWS_Related
+1
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples
+	Demos
+1
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS
+	src
+2
+d/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/src
+	__init__.py
+5
+d/usr/local/lib/python3.8/dist-packages/pyspark
+	bin
+2
+d/usr/local/lib/python3.8/dist-packages/pyspark/bin
+	pyspark
+8
+d/usr/local/lib/python3.8/dist-packages/pyspark
+	bin
+2
+d/usr/local/lib/python3.8/dist-packages/pyspark/bin
+	spark-submit.cmd
+23
+d/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter
+	Data
+8
+d/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter/Data
+	..
+0
+d/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter
+	src
+20
+d/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter/src
+	..
+0
+d/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter/Examples/Libraries
+	..
+0
+d/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter/Examples
+	Demo
+5
+d/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter
+	credentials.py
+35
+d/mnt/c/Users/Anak/PycharmProjects
+	Covid19CookieCutter
+23
+d/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter
+	Data
+8
+d/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter/Data
+	Processed
+2
+d/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter/Data/Processed
+	reddit_database.db
+2
 d
 
 # Right window history (oldest to newest):
@@ -389,11 +389,21 @@ D/home/awannaphasch2016/Documents
 D/home/awannaphasch2016/Documents/Researches
 	..
 0
+D/home/awannaphasch2016/Documents
+	Researches
+3
+D/home/awannaphasch2016
+	Documents
+2
 D
 
 # Command line history (oldest to newest):
 :za
 :w
+:fileviewr
+:view
+:mkdir something
+:mkdir 
 :q
 
 # Search history (oldest to newest):
@@ -414,6 +424,9 @@ D
 /Do
 /bin
 /sam
+/src
+/cre
+/data
 
 # Prompt history (oldest to newest):
 photkeys.mdd
@@ -423,10 +436,25 @@ photkey
 # Local filter history (oldest to newest):
 
 # Registers:
+""/home/awannaphasch2016/.local/share/vifm/Trash/000_something
 
 # Directory stack (oldest to newest):
 
 # Trash content:
+t/home/awannaphasch2016/.local/share/vifm/Trash/000_scratch4.py
+	/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/src/scratch4.py
+t/home/awannaphasch2016/.local/share/vifm/Trash/000_scratch4.js
+	/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/src/scratch4.js
+t/home/awannaphasch2016/.local/share/vifm/Trash/000_something.js
+	/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/src/something.js
+t/home/awannaphasch2016/.local/share/vifm/Trash/000_lambda_function.py
+	/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/src/lambda_function.py
+t/home/awannaphasch2016/.local/share/vifm/Trash/000_foo.zip
+	/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/src/foo.zip
+t/home/awannaphasch2016/.local/share/vifm/Trash/000_faucovidstream_producer.py
+	/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/src/faucovidstream_producer.py
+t/home/awannaphasch2016/.local/share/vifm/Trash/000_something
+	/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/src/something
 
 # State:
 f

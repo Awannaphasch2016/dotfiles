@@ -1,5 +1,5 @@
 syntax on
-
+"
 " General Settings
 " let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-
 "let g:netrw_brwse_split=2
@@ -26,6 +26,7 @@ set ttymouse=xterm2 " allow resize vim window with mouse
 set hlsearch
 set ic  " search not case sensitive
 set equalalways
+" set autochdir
 nnoremap <Space>wo  :tab split<CR>
 
 set colorcolumn=80
@@ -75,6 +76,10 @@ Plug 'puremourning/vimspector'
 Plug 'szw/vim-maximizer'
 Plug 'davidhalter/jedi-vim'
 Plug 'dhruvasagar/vim-zoom'
+Plug 'git@github.com:Valloric/YouCompleteMe.git'
+Plug 'ervandew/supertab'
+Plug 'dbakker/vim-projectroot'
+" Plug 'airblade/vim-rooter'
 
 " Plug 'tmux-plugins/tmux-resurrect'
 " Plug 'fannheyward/coc-pyright'
@@ -94,7 +99,6 @@ Plug 'dhruvasagar/vim-zoom'
 " Plug 'vim-airline/vim-airline'
 " Plug 'liuchengxu/vim-which-key'
 " Plug 'powerline/powerline'
-"Plug 'git@github.com:Valloric/YouCompleteMe.git'
 " Plug 'lyuts/vim-rtags'
 
 call plug#end()
@@ -332,10 +336,22 @@ set pastetoggle=<F10>
 
 " not sure which plugin overwrite but I need to remap
 nmap <c-i> <c-i>
+" ==============================================
+" ==Plugin/ultisnips and Plugin/vim-snippets
+" ==============================================
+" make YCM compatible with UltiSnips (using supertab)
+" let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+" let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+" let g:SuperTabDefaultCompletionType = '<C-n>'
 
-" Plugin/ultisnips and Plugin/vim-snippets
-let g:UltiSnipsJumpForwardTrigger="<c-j>"
-let g:UltiSnipsJumpBackwardTrigger="<c-k>" 
+" let g:UltiSnipsJumpForwardTrigger="<c-j>"
+" let g:UltiSnipsJumpBackwardTrigger="<c-k>" 
+" better key bindings for UltiSnipsExpandTrigger
+let g:UltiSnipsSnippetsDir = $HOME.'/.vim/UltiSnips'
+" let g:UltiSnipsExpandTrigger = '<tab>' " tab trigger doesn't work
+" let g:UltiSnipsJumpForwardTrigger = '<tab>'
+" let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
+
 
 " Plugin/NERDTree
 let NERDTreeIgnore = ['\.pyc$']
@@ -528,3 +544,12 @@ let g:jedi#goto_stubs_command = "<C-C>s"
 " ======================
 
 " set statusline+=%F
+
+" " ======================
+" " == Vim Rooter
+" can't get it to work
+" " ======================
+" let g:rooter_targets = '/,*.py'
+" let g:rooter_patterns = ['=src']
+" let g:rooter_patterns = ['.git', '.venv']
+
