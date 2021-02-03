@@ -1,0 +1,6 @@
+pane	crawler	1	:man	0	:-	0	:/mnt/c/Users/Anak	1	man	:vim /home/awannaphasch2016/.vimrc
+man tmux
+pane	crawler	2	:vim	1	:*	0	:/home/awannaphasch2016	1	vim	:vim .vimrc
+window	crawler	1	0	:-	bf7d,144x35,0,0,0
+window	crawler	2	1	:*	bf7e,144x35,0,0,1
+state	crawler	

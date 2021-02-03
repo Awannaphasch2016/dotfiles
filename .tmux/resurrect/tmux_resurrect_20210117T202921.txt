@@ -1,0 +1,6 @@
+pane	tgnn	1	:todo	0	:-	0	:/mnt/c/Users/Anak/PycharmProjects/TODO-Manager	1	vim	:vim covid_spread_prediction_todo.txt
+pane	tgnn	2	:working	1	:*	0	:/home/awannaphasch2016/Documents/Working/pandemic_tgnn/code	0	zsh	:
+pane	tgnn	2	:working	1	:*	1	:/home/awannaphasch2016/Documents/Working/pandemic_tgnn/code	1	vim	:vim experiments.py
+window	tgnn	1	0	:-	d81e,268x69,0,0,1
+window	tgnn	2	1	:*	597c,268x69,0,0{134x69,0,0,2,133x69,135,0,3}
+state	tgnn	

@@ -1,0 +1,16 @@
+pane	crawler	1	:vim	0	:	0	:/home/awannaphasch2016/Documents/Working	1	vim	:vim /home/awannaphasch2016/.vimrc
+pane	crawler	2	:zsh	0	:	0	:/mnt/c/Users/Anak	1	zsh	:
+pane	crawler	3	:todo	1	:*	0	:/mnt/c/Users/Anak/PycharmProjects/TODO-Manager	1	vim	:vim /home/awannaphasch2016/.vimrc
+vim /home/awannaphasch2016/.vimrc
+vim
+pane	crawler	4	:working	0	:-	0	:/home/awannaphasch2016/Documents/Working/FAUCralwer	1	vim	:vim
+vim
+vim
+vim
+vim README.md
+pane	crawler	4	:working	0	:-	1	:/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/FAUCovidStreamDemo	0	zsh	:
+window	crawler	1	0	:	d824,268x69,0,0,7
+window	crawler	2	0	:	6c44,268x69,0,0,15
+window	crawler	3	1	:*	d821,268x69,0,0,4
+window	crawler	4	0	:-	64ed,268x69,0,0[268x50,0,0,5,268x18,0,51,25]
+state	crawler	

@@ -1,0 +1,10 @@
+pane	config	1	:vim	1	:*	0	:/home/awannaphasch2016	1	vim	:vim ScratchPad/test.py
+vim .vimrc
+pane	fau_crawler	2	:vim	0	:-	0	:/mnt/c/Users/Anak/PycharmProjects/TODO-Manager	1	vim	:vim
+pane	fau_crawler	3	:woring	1	:*	0	:/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS	0	vim	:vim secure_info.py
+vim
+pane	fau_crawler	3	:woring	1	:*	1	:/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/src/Streams	1	zsh	:
+window	config	1	1	:*	db21,235x61,0,0,22
+window	fau_crawler	2	0	:-	db20,235x61,0,0,21
+window	fau_crawler	3	1	:*	4151,235x61,0,0[235x42,0,0,16,235x18,0,43,17]
+state	fau_crawler	config

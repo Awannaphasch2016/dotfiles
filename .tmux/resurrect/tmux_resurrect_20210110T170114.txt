@@ -1,0 +1,17 @@
+pane	crawler	1	:vim	0	:	0	:/home/awannaphasch2016/Documents/Working	1	vim	:vim /home/awannaphasch2016/.vimrc
+pane	crawler	2	:zsh	0	:	0	:/mnt/c/Users/Anak	1	zsh	:
+pane	crawler	3	:todo	1	:*	0	:/mnt/c/Users/Anak/PycharmProjects/TODO-Manager	1	vim	:vim /home/awannaphasch2016/.vimrc
+vim /home/awannaphasch2016/.vimrc
+vim
+pane	crawler	4	:working	0	:-	0	:/home/awannaphasch2016/Documents/Working/FAUCralwer	0	vim	:vim
+vim
+vim
+vim
+vim TwitterStreamWithAWS/twitter_firehorse.py
+pane	crawler	4	:working	0	:-	1	:/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/FAUCovidStreamDemo	1	vim	:vim TwitterStreamWithAWS/
+vim
+window	crawler	1	0	:	b0a4,208x50,0,0,7
+window	crawler	2	0	:	5884,208x50,0,0,15
+window	crawler	3	1	:*	b0a1,208x50,0,0,4
+window	crawler	4	0	:-	d947,208x50,0,0{104x50,0,0,5,103x50,105,0,21}
+state	crawler	
