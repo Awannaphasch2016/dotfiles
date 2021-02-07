@@ -140,3 +140,11 @@ export NVM_DIR="$HOME/.nvm"
   [ -s "/home/awannaphasch2016/.linuxbrew/opt/nvm/nvm.sh" ] && . "/home/awannaphasch2016/.linuxbrew/opt/nvm/nvm.sh"  # This loads nvm
     [ -s "/home/awannaphasch2016/.linuxbrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/home/awannaphasch2016/.linuxbrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
+
+# fzf from terminal
+# reference: https://www.youtube.com/watch?v=1a5NiMhqAR0&ab_channel=TheModernCoder
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export FZF_DEFAULT_OPS="--extended"
+export FZF_DEFAULT_COMMAND="fdfind --type f"
+# export FZF_DEFAULT_COMMAND="fd --type -f"
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"

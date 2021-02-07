@@ -42,8 +42,6 @@ noremap X "_X
 
 call plug#begin('~/.vim/plugged')
 
-" Plug 'airblade/vim-gitgutter'
-" Plug 'KKPMW/vim-sendtowindow'
 Plug 'morhetz/gruvbox'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-utils/vim-man'
@@ -57,6 +55,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 Plug 'junegunn/fzf', {'do': { -> fzf#install()}}
 Plug 'junegunn/fzf.vim'
+Plug 'stsewd/fzf-checkout.vim'
 Plug 'preservim/nerdtree'
 Plug 'lfv89/vim-interestingwords'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
@@ -79,8 +78,14 @@ Plug 'dhruvasagar/vim-zoom'
 Plug 'git@github.com:Valloric/YouCompleteMe.git'
 Plug 'ervandew/supertab'
 Plug 'dbakker/vim-projectroot'
-" Plug 'airblade/vim-rooter'
+Plug 'vim-airline/vim-airline'
+Plug 'karoliskoncevicius/vim-sendtowindow'
+Plug 'godlygeek/tabular' | Plug 'plasticboy/vim-markdown'
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 
+" Plug 'airblade/vim-gitgutter' "can't get it to work at all not even the default
+" Plug 'albfa/ag.vim'
+" Plug 'airblade/vim-rooter'
 " Plug 'tmux-plugins/tmux-resurrect'
 " Plug 'fannheyward/coc-pyright'
 " Plug 'vimwiki/vimwiki'
@@ -89,14 +94,9 @@ Plug 'dbakker/vim-projectroot'
 " Plug 'https://github.com/williamjameshandley/vimteractive'
 " Plug 'jpalardy/vim-slime', { 'for': 'python' }
 " Plug 'hanschen/vim-ipython-cell', { 'for': 'python' }
-" Plug 'karoliskoncevicius/vim-sendtowindow'
-" Plug 'iamcco/markdown-preview.vim'
-" Plug 'godlygeek/tabular'
-" Plug 'plasticboy/vim-markdown'
 " Plug 'jremmen/vim-ripgrep'
 " Plug 'mattn/gist-vim'
 " Plug 'vim-airline/vim-airline-themes'
-" Plug 'vim-airline/vim-airline'
 " Plug 'liuchengxu/vim-which-key'
 " Plug 'powerline/powerline'
 " Plug 'lyuts/vim-rtags'
@@ -110,6 +110,8 @@ set background=dark
 if executable('Rg')
     let g:Rg_derive_root
 endif
+
+" let g:Ag.working_path_mode='r' 
 
 let mapleader = " "
 let maplocalleader = "''"
@@ -133,9 +135,11 @@ nmap <Leader>f <Plug>(easymotion-bd-f2)
 " fzf 
 nmap <Leader>. :Files<cr>
 
-" tab management
-nmap <tab> gt
-nmap <S-tab> gT
+" ====================
+" == tab management
+" ====================
+" nmap <tab> gt
+" nmap <S-tab> gT
 nmap tn :tabnew<Space>
 nmap tt :tabedit<Space>
 
@@ -210,8 +214,7 @@ let g:startify_bookmarks = [
 "             \ '~/Pics',
 "             \ ]
 
-"Plugin/gitgutter
-let g:gitgutter_async=0
+
 
 
 " script to create file in /ScratchFiles folder
@@ -221,19 +224,6 @@ function! Hex()
     return "something"
 endfunction
 
-" " Plugin/sendtosplit
-" source /home/awannaphasch2016/vim-sendtowindow/plugin/sendtosplit.vim
-
-" let g:sendtowindow_use_defaults=0
-" nmap L <Plug>SendRight
-" xmap L <Plug>SendRightV
-" nmap H <Plug>SendLeft
-" xmap H <Plug>SendLeftV
-" nmap K <Plug>SendUp
-" xmap K <Plug>SendUpV
-" nmap J <Plug>SendDown
-" xmap J <Plug>SendDownV
-
 nnoremap <Leader>v :vsplit <CR>
 nnoremap <Leader>s :split <CR>
 nnoremap <Leader>h :wincmd h<CR>
@@ -242,6 +232,10 @@ nnoremap <Leader>k :wincmd k<CR>
 nnoremap <Leader>l :wincmd l<CR>
 nnoremap <Leader>U :UndotreeShow<CR>
 nnoremap <Leader>pv :wincmd v<bar> :Ex <bar> :vertical resize 30<CR>
+
+" split window from vertical to horizontal or horizontal to vertical
+" map <leader>th <C-w>t<C-W>H
+" map <leader>tk <C-w>t<C-W>K
 
 " nmap <silent> <C-Left> :vertical resize +3<CR>
 " nmap <silent> <C-Right> :vertical resize -3<CR>
@@ -394,11 +388,12 @@ endfunction
 
 command! ProjectFiles execute 'Files' s:find_git_root()
 
-" nnoremap <silent> <C-p> :FZF -m<CR>
+
 nnoremap <silent> <C-p> :ProjectFiles <CR>
-nnoremap <silent> <Leader>L :Lines<CR>
-" nnoremap <silent> <Leader>b :BLines<CR>
 nnoremap <silent> <Leader><Enter> :Buffers<CR>
+" nnoremap <silent> <C-p> :FZF -m<CR> 
+" nnoremap <silent> <Leader>L :Lines<CR>
+" nnoremap <silent> <Leader>b :BLines<CR>
 
 
 " allow lines and Blines to show preview
@@ -553,3 +548,48 @@ let g:jedi#goto_stubs_command = "<C-C>s"
 " let g:rooter_patterns = ['=src']
 " let g:rooter_patterns = ['.git', '.venv']
 
+set runtimepath^=~/.vim/plugged/ag
+
+
+" ======================
+" == quickfix
+" =====================
+"
+autocmd FileType qf nnoremap <buffer> <Enter> <C-W><Enter><C-W>T
+
+" ======================
+" == vim fugitive
+" =====================
+" reference: 
+"   * demo how you can use git with vim-gufitive
+"       * https://www.youtube.com/watch?v=PO6DxfGPQvw&ab_channel=ThePrimeagen
+nmap <leader>gj :diffget //3<CR> 
+nmap <leader>gf :diffget //2<CR>
+nmap <leader>gs :G<CR>
+
+let g:fzf_layout = {'window': { 'width': 0.8, 'height': 0.8}}
+let $FZF_DEFAULT_OPTS='--reverse'
+nnoremap <leader>gc :GCheckout<CR>
+
+" ======================
+" == vim-sendtowindow
+" =====================
+" Plugin/sendtosplit
+" source /home/awannaphasch2016/vim-sendtowindow/plugin/sendtosplit.vim
+
+let g:sendtowindow_use_defaults=0
+nmap L <Plug>SendRight
+xmap L <Plug>SendRightV
+nmap H <Plug>SendLeft
+xmap H <Plug>SendLeftV
+nmap K <Plug>SendUp
+xmap K <Plug>SendUpV
+nmap J <Plug>SendDown
+xmap J <Plug>SendDownV
+
+" " =====================
+" " == Plugin/gitgutter (currently, it doesn't seem to work)
+" " =====================
+" let g:gitgutter_async=0
+" let s:grep_available=0 
+" let g:gitgutter_enabled=1

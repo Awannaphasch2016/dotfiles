@@ -50,15 +50,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/usr/bin
-	pydoc3.6
-23
-d/home/awannaphasch2016/Documents/Researches
-	..
-0
-d/home/awannaphasch2016/Documents
-	..
-0
 d/home/awannaphasch2016
 	CodeSnippets
 21
@@ -348,7 +339,16 @@ d/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter/Data
 	Processed
 2
 d/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter/Data/Processed
-	reddit_database.db
+	..
+0
+d/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter/Data
+	..
+0
+d/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter
+	Data
+8
+d/home/awannaphasch2016/Documents/Researches
+	A Deep Learning Approach for COVID-19 Trend Prediction.md
 2
 d
 
