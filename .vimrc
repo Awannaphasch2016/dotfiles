@@ -26,8 +26,19 @@ set ttymouse=xterm2 " allow resize vim window with mouse
 set hlsearch
 set ic  " search not case sensitive
 set equalalways
+set nocompatible " set for vimwiki
+filetype plugin on " set for vimwiki
 " set autochdir
 nnoremap <Space>wo  :tab split<CR>
+
+" run python and output inplace (within vim!)
+" rp = run program, so rpp = run program in python
+vnoremap rpp :!python<CR>
+
+" search down into subfolder 
+" Provides tab-completion for all file-related tasks
+set path+=**
+set wildmenu
 
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
@@ -42,7 +53,6 @@ noremap X "_X
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'morhetz/gruvbox'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-utils/vim-man'
 Plug 'mbbill/undotree'
@@ -60,35 +70,41 @@ Plug 'preservim/nerdtree'
 Plug 'lfv89/vim-interestingwords'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'mhinz/vim-startify'
-Plug 'mattn/webapi-vim'
 Plug 'fisadev/vim-isort'
-Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'  " useful snippets.
+Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 Plug 'jupyter-vim/jupyter-vim'
 Plug 'nelstrom/vim-visual-star-search' " allow using * under hightlighted curosr.
 Plug 'mhinz/vim-grepper'
 Plug 'rhysd/vim-healthcheck'
-Plug 'lambdalisue/fern.vim' " start up vim is super slow
 Plug 'xolox/vim-session'
 Plug 'xolox/vim-misc'
-Plug 'vifm/vifm.vim'
 Plug 'puremourning/vimspector'
 Plug 'szw/vim-maximizer'
-Plug 'davidhalter/jedi-vim'
 Plug 'dhruvasagar/vim-zoom'
-Plug 'git@github.com:Valloric/YouCompleteMe.git'
-Plug 'ervandew/supertab'
+Plug 'Valloric/YouCompleteMe'
 Plug 'dbakker/vim-projectroot'
-Plug 'vim-airline/vim-airline'
 Plug 'karoliskoncevicius/vim-sendtowindow'
 Plug 'godlygeek/tabular' | Plug 'plasticboy/vim-markdown'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+Plug 'davidhalter/jedi-vim'
+Plug 'ervandew/supertab'
+Plug 'michaeljsmith/vim-indent-object' 
+Plug 'craigemery/vim-autotag'
 
+" Plug 'xolox/vim-easytags'
+" Plug 'nathanaelkane/vim-indent-guides'
+" Plug 'morhetz/gruvbox'
+" Plug 'vimwiki/vimwiki'
+" Plug 'ashisha/image.vim'
+" Plug 'mattn/webapi-vim'
+" Plug 'lambdalisue/fern.vim' " start up vim is super slow
+" Plug 'vim-airline/vim-airline'
+" Plug 'vifm/vifm.vim'
 " Plug 'airblade/vim-gitgutter' "can't get it to work at all not even the default
 " Plug 'albfa/ag.vim'
 " Plug 'airblade/vim-rooter'
 " Plug 'tmux-plugins/tmux-resurrect'
 " Plug 'fannheyward/coc-pyright'
-" Plug 'vimwiki/vimwiki'
 " Plug 'haya14busa/is.vim'
 " Plug 'git@github.com:kien/ctrlp.vim.git'
 " Plug 'https://github.com/williamjameshandley/vimteractive'
@@ -103,8 +119,8 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': 
 
 call plug#end()
 
-colorscheme gruvbox
-set background=dark
+" colorscheme gruvbox
+" set background=dark
 
 " allow rg to alwasy detect your root.
 if executable('Rg')
@@ -187,8 +203,13 @@ let &t_EI = "\e[2 q"
 " vnoremap <a-j> :m '>+1<cr>gv=gv
 " vnoremap <a-k> :m '<-2<cr>gv=gv
 
-" enable visual block
-nnoremap q <c-v>
+"==========================
+"=== Vim/Mode/visual block mode
+"==========================
+" enable visual block: because i use <c-v> for pasting; <c-b> is just a
+" binding tht I can think of that is aviable. also it is close to <c-v>
+nnoremap <c-b> <c-v> 
+
 "==========================
 "=== Plugin/stratify
 "==========================
@@ -334,24 +355,22 @@ nmap <c-i> <c-i>
 " ==Plugin/ultisnips and Plugin/vim-snippets
 " ==============================================
 " make YCM compatible with UltiSnips (using supertab)
-" let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
-" let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
-" let g:SuperTabDefaultCompletionType = '<C-n>'
+let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+let g:SuperTabDefaultCompletionType = '<C-n>'
 
-" let g:UltiSnipsJumpForwardTrigger="<c-j>"
-" let g:UltiSnipsJumpBackwardTrigger="<c-k>" 
 " better key bindings for UltiSnipsExpandTrigger
-let g:UltiSnipsSnippetsDir = $HOME.'/.vim/UltiSnips'
-" let g:UltiSnipsExpandTrigger = '<tab>' " tab trigger doesn't work
-" let g:UltiSnipsJumpForwardTrigger = '<tab>'
-" let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
-
+" let g:UltiSnipsSnippetsDir = $HOME.'/.vim/UltiSnips'
+let g:UltiSnipsSnippetDirectories = ['my_snippets']
+let g:UltiSnipsExpandTrigger = '<tab>'
+let g:UltiSnipsJumpForwardTrigger = '<tab>'
+let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
 
 " Plugin/NERDTree
 let NERDTreeIgnore = ['\.pyc$']
 " nnoremap <C-t> :NERDTreeToggle<CR>
 " Open nerd tree at the current file on close nerd tree is pressed again.
-nnoremap <silent> <expr> <c-t> g:NERDTree.IsOpen() ? "\:NERDTreeClose<CR>" : bufexists(expand('%')) ? "\:NERDTreeFind<CR>" : "\:NERDTree<CR>"
+nnoremap <silent> <expr> <c-s> g:NERDTree.IsOpen() ? "\:NERDTreeClose<CR>" : bufexists(expand('%')) ? "\:NERDTreeFind<CR>" : "\:NERDTree<CR>"
 " auto load buffer when file is renamed
 let g:NERDTreeAutoDeleteBuffer=1  
 
@@ -361,6 +380,7 @@ let g:NERDTreeAutoDeleteBuffer=1
 nmap <Leader>b :buffers<CR>:buffer<Space>
 " nmap <Leader>, :imap jk <Esc> <CR>
 imap jk <Esc>
+vmap jk <Esc>
 
 
 " ============================
@@ -593,3 +613,32 @@ xmap J <Plug>SendDownV
 " let g:gitgutter_async=0
 " let s:grep_available=0 
 " let g:gitgutter_enabled=1
+
+" " =====================
+" " == Plugin/image.vim
+" " =====================
+" au BufRead *.png,*.jpg,*.jpeg :call DisplayImage() " can't get it to work 
+
+
+" " =====================
+" " == Plugin/vimwiki
+" " =====================
+
+" let g:vimwiki_global_ext = 0
+" let g:vimwiki_table_mappings=0
+" let g:vimwiki_list = [ {'path': '~/Documents/vimviki', 'syntax': 'markdown','ext':'.md'}]
+" " let g:vimwiki_list = [ 
+" "             \ {'path': '~/Documents/vimviki', 'syntax': 'markdown', 'ext':'.md'},
+" "             \ {'path':
+" "             \ '~/Documents/CodeStorage/AIKnowledgeWarehouse', 'syntax': 'markdown', 'ext':'.md'},
+" "             \ {'path':
+" "             \ '/mnt/c/Users/Anak/PycharmProjects/TODO-Manager', 'syntax': 'markdown', 'ext':'.md'}
+" "             \ ]
+
+" =====================
+" == Vim/basic/foldmethod
+" =====================
+set foldmethod=indent
+set foldenable
+set foldmethod=indent
+

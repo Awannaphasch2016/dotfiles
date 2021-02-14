@@ -1,0 +1,16 @@
+pane	fau_crawler	1	:todo	1	:*	0	:/mnt/c/Users/Anak/PycharmProjects/TODO-Manager	1	vim	:vim
+vim
+vim
+pane	fau_crawler	1	:todo	1	:*	1	:/home/awannaphasch2016/Documents/Researches	0	vifm	:vim
+vifm .
+pane	fau_crawler	2	:working	0	:-	0	:/home/awannaphasch2016	0	zsh	:vim
+vim
+pane	fau_crawler	2	:working	0	:-	1	:/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/src/Streams	1	python3	:python3 twitter_to_kinesis.py covid
+pane	fau_crawler	2	:working	0	:-	2	:/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/src/Streams	0	zsh	:
+pane	fau_crawler	2	:working	0	:-	3	:/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples/Demos/AWS_Related/LambdaAPIDynamodb	0	zsh	:
+pane	fau_crawler	2	:working	0	:-	4	:/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Scratches	0	zsh	:vim lambda_function.py
+vim get_dynamodb_data.py
+pane	fau_crawler	2	:working	0	:-	5	:/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples/Libraries/PRAWLibrary	0	zsh	:
+window	fau_crawler	1	1	:*	5f6a,268x69,0,0[268x34,0,0,0,268x34,0,35,19]
+window	fau_crawler	2	0	:-	e2ae,268x69,0,0[268x45,0,0,1,268x23,0,46{80x23,0,46,3,118x23,81,46[118x11,81,46,5,118x11,81,58,15],68x23,200,46[68x11,200,46,7,68x11,200,58,8]}]
+state	fau_crawler	

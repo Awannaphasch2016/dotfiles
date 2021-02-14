@@ -148,3 +148,26 @@ export FZF_DEFAULT_OPS="--extended"
 export FZF_DEFAULT_COMMAND="fdfind --type f"
 # export FZF_DEFAULT_COMMAND="fd --type -f"
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+
+# NOTE: setting port forwarding to communicate with x server
+# export DISPLAY=$(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/null):0 # in WSL 2
+export DISPLAY="`grep nameserver /etc/resolv.conf | sed 's/nameserver //'`:0"
+export LIBGL_ALWAYS_INDIRECT=1
+
+export PATH=~/anaconda3/bin:$PATH
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/awannaphasch2016/anaconda3_wsl2/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/awannaphasch2016/anaconda3_wsl2/etc/profile.d/conda.sh" ]; then
+        . "/home/awannaphasch2016/anaconda3_wsl2/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/awannaphasch2016/anaconda3_wsl2/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+

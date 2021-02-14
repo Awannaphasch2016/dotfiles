@@ -238,7 +238,10 @@ filextype *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
         \ {View in shotwell}
         \ shotwell,
 fileviewer *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
-         \ identify %f
+        \ vifmimg draw %px %py %pw %ph %c
+        \ %pc
+        \ vifmimg clear
+         " \ identify %f " use to be below line containing *.jpg
 
 " OpenRaster
 filextype *.ora

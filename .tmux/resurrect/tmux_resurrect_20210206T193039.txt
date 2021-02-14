@@ -1,0 +1,14 @@
+pane	fau_crawler	1	:zsh	1	:*	0	:/mnt/c/Users/Anak/PycharmProjects/TODO-Manager	1	zsh	:vim
+vim
+vim /home/awannaphasch2016/.zshrc
+vim
+pane	fau_crawler	2	:python3	0	:	0	:/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS	0	vim	:vim
+vim
+pane	fau_crawler	2	:python3	0	:	1	:/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/src/Streams	1	python3	:python3 twitter_to_kinesis.py covid
+pane	fau_crawler	2	:python3	0	:	2	:/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Examples/Demos/AWS_Related/LambdaAPIDynamodb	0	zsh	:
+pane	fau_crawler	3	:vim	0	:-	0	:/mnt/c/Users/Anak/PycharmProjects/TODO-Manager	1	vim	:vim
+vim /home/awannaphasch2016/.vimrc
+window	fau_crawler	1	1	:*	c01d,268x63,0,0,0
+window	fau_crawler	2	0	:	c478,268x63,0,0[268x33,0,0,1,268x29,0,34{128x29,0,34,2,139x29,129,34,5}]
+window	fau_crawler	3	0	:-	c026,268x63,0,0,9
+state	fau_crawler	

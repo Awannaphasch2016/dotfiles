@@ -50,63 +50,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/awannaphasch2016
-	CodeSnippets
-21
-d/home
-	awannaphasch2016
-1
-d/
-	mnt
-13
-d/mnt
-	c
-1
-d/mnt/c
-	Anak
-3
-d/mnt/c/Anak
-	..
-0
-d/mnt/c
-	Users
-18
-d/mnt/c/Users
-	Anak
-2
-d/mnt/c/Users/Anak
-	_viminfo
-34
-d/home/awannaphasch2016/Documents/Working/pandemic_tgnn/code
-	..
-0
-d/home/awannaphasch2016/Documents/Working/pandemic_tgnn
-	data
-3
-d/home/awannaphasch2016/Documents/Working/pandemic_tgnn/data
-	..
-0
-d/home/awannaphasch2016/Documents/Working/pandemic_tgnn
-	code
-2
-d/home/awannaphasch2016/Documents/Working/pandemic_tgnn/code
-	..
-0
-d/home/awannaphasch2016/Documents/Working/pandemic_tgnn
-	.git
-1
-d/home/awannaphasch2016/Documents/Working/pandemic_tgnn/.git
-	..
-0
-d/home/awannaphasch2016/Documents/Working/pandemic_tgnn
-	.git
-1
-d/home/awannaphasch2016
-	Documents
-22
-d/home/awannaphasch2016/Documents
-	Working
-3
 d/home/awannaphasch2016/Documents/Working
 	FAUCralwer
 1
@@ -350,6 +293,63 @@ d/mnt/c/Users/Anak/PycharmProjects/Covid19CookieCutter
 d/home/awannaphasch2016/Documents/Researches
 	A Deep Learning Approach for COVID-19 Trend Prediction.md
 2
+d/home/awannaphasch2016/anaconda3_wsl2/doc/global/template/images
+	arrow_down.png
+9
+d/home/awannaphasch2016
+	.vim
+6
+d/home/awannaphasch2016/.vim
+	plugged
+4
+d/home/awannaphasch2016/.vim/plugged
+	vimspector
+36
+d/home/awannaphasch2016/.vim/plugged/vimspector
+	docs
+6
+d/home/awannaphasch2016/.vim/plugged/vimspector/docs
+	..
+0
+d/home/awannaphasch2016/.vim/plugged/vimspector
+	tests
+12
+d/home/awannaphasch2016/.vim/plugged/vimspector/tests
+	python
+4
+d/home/awannaphasch2016/.vim/plugged/vimspector/tests/python
+	..
+0
+d/home/awannaphasch2016/.vim/plugged/vimspector/tests
+	python
+4
+d/home/awannaphasch2016/.vim/plugged/vimspector
+	plugin
+8
+d/home/awannaphasch2016/.vim/plugged/vimspector/plugin
+	..
+0
+d/home/awannaphasch2016/.vim/plugged/vimspector
+	support
+10
+d/home/awannaphasch2016/.vim/plugged/vimspector/support
+	test
+3
+d/home/awannaphasch2016/.vim/plugged/vimspector/support/test
+	run_test_vim
+15
+d/home/awannaphasch2016/Documents/Working/CovidTrendPrediction
+	Outputs
+8
+d/home/awannaphasch2016/Documents/Working/CovidTrendPrediction/Outputs
+	Images
+1
+d/home/awannaphasch2016/Documents/Working/CovidTrendPrediction/Outputs/Images
+	LSTM
+1
+d/home/awannaphasch2016/Documents/Working/CovidTrendPrediction/Outputs/Images/LSTM
+	loss_function.jpg
+1
 d
 
 # Right window history (oldest to newest):
@@ -414,7 +414,6 @@ D
 /vim
 /tmp
 /.config
-/vimsp
 /ur
 /uslh
 /python3
@@ -427,11 +426,14 @@ D
 /src
 /cre
 /data
+/.vim
+/vimsp
 
 # Prompt history (oldest to newest):
 photkeys.mdd
 photkeys
 photkey
+pOutputs
 
 # Local filter history (oldest to newest):
 
