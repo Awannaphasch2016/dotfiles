@@ -34,7 +34,7 @@ nnoremap <Space>wo  :tab split<CR>
 
 " run python and output inplace (within vim!)
 " rp = run program, so rpp = run program in python
-vnoremap rpp :!python<CR>
+vnoremap rpp :!python3<CR>
 
 " search down into subfolder 
 " Provides tab-completion for all file-related tasks
@@ -62,8 +62,8 @@ Plug 'easymotion/vim-easymotion'
 Plug 'preservim/tagbar'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
-" Plug 'neoclide/coc.nvim', {'branch': 'release'}
-" Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 Plug 'junegunn/fzf', {'do': { -> fzf#install()}}
 Plug 'junegunn/fzf.vim'
 Plug 'stsewd/fzf-checkout.vim'
@@ -82,16 +82,16 @@ Plug 'xolox/vim-misc'
 Plug 'puremourning/vimspector'
 Plug 'szw/vim-maximizer'
 Plug 'dhruvasagar/vim-zoom'
-Plug 'Valloric/YouCompleteMe'
 Plug 'dbakker/vim-projectroot'
 Plug 'karoliskoncevicius/vim-sendtowindow'
 Plug 'godlygeek/tabular' | Plug 'plasticboy/vim-markdown'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
-Plug 'davidhalter/jedi-vim'
 Plug 'ervandew/supertab'
 Plug 'michaeljsmith/vim-indent-object' 
 Plug 'craigemery/vim-autotag'
 
+" Plug 'davidhalter/jedi-vim'
+" Plug 'Valloric/YouCompleteMe'
 " Plug 'xolox/vim-easytags'
 " Plug 'nathanaelkane/vim-indent-guides'
 " Plug 'morhetz/gruvbox'
@@ -582,8 +582,12 @@ nmap <leader>gj :diffget //3<CR>
 nmap <leader>gf :diffget //2<CR>
 nmap <leader>gs :G<CR>
 
-let g:fzf_layout = {'window': { 'width': 0.8, 'height': 0.8}}
-let $FZF_DEFAULT_OPTS='--reverse'
+" ======================
+" == Basic/popup window
+" =====================
+" let g:fzf_layout = {'window': { 'width': 0.8, 'height': 0.8}}
+" let $FZF_DEFAULT_OPTS='--reverse'
+
 nnoremap <leader>gc :GCheckout<CR>
 
 "=====================

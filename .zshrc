@@ -161,14 +161,14 @@ export PATH=~/anaconda3/bin:$PATH
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/awannaphasch2016/anaconda3_wsl2/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('/home/awannaphasch2016/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/home/awannaphasch2016/anaconda3_wsl2/etc/profile.d/conda.sh" ]; then
-        . "/home/awannaphasch2016/anaconda3_wsl2/etc/profile.d/conda.sh"
+    if [ -f "/home/awannaphasch2016/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/awannaphasch2016/anaconda3/etc/profile.d/conda.sh"
     else
-        export PATH="/home/awannaphasch2016/anaconda3_wsl2/bin:$PATH"
+        export PATH="/home/awannaphasch2016/anaconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup
@@ -176,3 +176,7 @@ unset __conda_setup
 
 # if you have chrome install in window OS
 alias chrome='/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.exe'
+
+# override alt + . to get last argument 
+# ref: https://stackoverflow.com/questions/8344699/how-to-repeat-the-last-part-of-a-previous-command
+bindkey '\e.' insert-last-word
