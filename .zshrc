@@ -115,14 +115,17 @@ source $ZSH/oh-my-zsh.sh
 
 # alias ll='colorls -lA --sd --group-directories-first'
 # alias ls='colorls --group-directories-first'
-source ~/powerlevel10k/powerlevel10k.zsh-theme
+# source ~/powerlevel10k/powerlevel10k.zsh-theme
+source ~/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
+
 # typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 # export $POWERLEVEL9K_INSTANT_PROMPT=quiet
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias cdd='cd ~/Documents'
 alias cdw='cd ~/Documents/Working'
 alias cdwind='cd /mnt/c/Users/Anak/Documents'
