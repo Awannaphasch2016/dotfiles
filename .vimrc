@@ -57,11 +57,11 @@ call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-fugitive'
 Plug 'vim-utils/vim-man'
 Plug 'mbbill/undotree'
-Plug 'git@github.com:nvie/vim-flake8.git'
-Plug 'git@github.com:easymotion/vim-easymotion'
-Plug 'git@github.com:preservim/tagbar'
-Plug 'git@github.com:tpope/vim-surround'
-Plug 'git@github.com:tpope/vim-commentary'
+Plug 'nvie/vim-flake8'
+Plug 'easymotion/vim-easymotion'
+Plug 'preservim/tagbar'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-commentary'
 " Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 Plug 'junegunn/fzf', {'do': { -> fzf#install()}}
