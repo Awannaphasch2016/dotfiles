@@ -4,6 +4,7 @@ syntax on
 " let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-
 "let g:netrw_brwse_split=2
 " set updatetime=101
+" set list
 set ttimeoutlen=100
 set noerrorbells
 set tabstop=4 softtabstop=4
@@ -61,8 +62,8 @@ Plug 'git@github.com:easymotion/vim-easymotion'
 Plug 'git@github.com:preservim/tagbar'
 Plug 'git@github.com:tpope/vim-surround'
 Plug 'git@github.com:tpope/vim-commentary'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 Plug 'junegunn/fzf', {'do': { -> fzf#install()}}
 Plug 'junegunn/fzf.vim'
 Plug 'stsewd/fzf-checkout.vim'
@@ -148,8 +149,6 @@ nnoremap <silent> <Leader>- :vertical resize -5<CR>
 nmap <Leader>F <Plug>(easymotion-overwin-f2)
 nmap <Leader>f <Plug>(easymotion-bd-f2)
 
-" fzf 
-nmap <Leader>. :Files<cr>
 
 " ====================
 " == tab management
@@ -409,6 +408,7 @@ endfunction
 command! ProjectFiles execute 'Files' s:find_git_root()
 
 
+" nmap <Leader>. :Files<cr>
 nnoremap <silent> <C-p> :ProjectFiles <CR>
 nnoremap <silent> <Leader><Enter> :Buffers<CR>
 " nnoremap <silent> <C-p> :FZF -m<CR> 
@@ -424,7 +424,7 @@ command! -bang -nargs=* LinesWithPreview
     \   'rg --with-filename --column --line-number --no-heading --color=always --smart-case . '.fnameescape(expand('%')), 1,
     \   fzf#vim#with_preview({'options': '--delimiter : --nth 4.. --no-sort'}, 'up:50%', '?'),
     \   1)
-nnoremap H :LinesWithPreview<CR>
+nnoremap <leader>. :LinesWithPreview<CR>
 " version 2 
 " command! -bang -nargs=* CustomBLines
 "     \ call fzf#vim#grep(
@@ -527,11 +527,6 @@ endfunction
 " nmap <Leader>gd :call CocActionAsync('jumpDefinition')<CR>
 " nmap <Leader>gr <Plug>(coc-references)
 
-" GoTo code navigation.
-nmap <silent> gd <Plug>(coc-definition)
-" nmap <silent> gy <Plug>(coc-type-definition) " not working
-" nmap <silent> gi <Plug>(coc-implementation) " not working
-" nmap <silent> gr <Plug>(coc-references) " not working
 
 
 " " ======================
@@ -572,13 +567,13 @@ set runtimepath^=~/.vim/plugged/ag
 
 
 " ======================
-" == quickfix
+" == Vim/basic/quickfix
 " =====================
 "
 autocmd FileType qf nnoremap <buffer> <Enter> <C-W><Enter><C-W>T
 
 " ======================
-" == vim fugitive
+" == Plugin/vim fugitive
 " =====================
 " reference: 
 "   * demo how you can use git with vim-gufitive
@@ -591,8 +586,16 @@ let g:fzf_layout = {'window': { 'width': 0.8, 'height': 0.8}}
 let $FZF_DEFAULT_OPTS='--reverse'
 nnoremap <leader>gc :GCheckout<CR>
 
+"=====================
+"== Plugin/coc
+"=====================
+" nmap <silent> gd <Plug>(coc-definition)
+" nmap <silent> gy <Plug>(coc-type-definition) " not working
+" nmap <silent> gi <Plug>(coc-implementation) " not working
+" nmap <silent> gr <Plug>(coc-references) " not working
+
 " ======================
-" == vim-sendtowindow
+" == Plugin/vim-sendtowindow
 " =====================
 " Plugin/sendtosplit
 " source /home/awannaphasch2016/vim-sendtowindow/plugin/sendtosplit.vim

@@ -171,3 +171,5 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# if you have chrome install in window OS
+alias chrome='/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.exe'
