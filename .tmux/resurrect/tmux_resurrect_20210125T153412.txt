@@ -1,9 +1,0 @@
-pane	fau_crawler	1	:todo	0	:-	0	:/mnt/c/Users/Anak/PycharmProjects/TODO-Manager	1	vim	:vim today's todo.txt
-pane	fau_crawler	2	:working	1	:*	0	:/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS	0	vim	:vim
-pane	fau_crawler	2	:working	1	:*	1	:/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/src/Streams	0	zsh	:
-pane	fau_crawler	2	:working	1	:*	2	:/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/Scratches	1	zsh	:
-pane	fau_crawler	2	:working	1	:*	3	:/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/src/LambdaAPIDynamodb/gettopn	0	zsh	:vim lambda_function.py
-pane	fau_crawler	2	:working	1	:*	4	:/home/awannaphasch2016/Documents/Working/FAUCralwer/TwitterStreamWithAWS/src/LambdaAPIDynamodb/getbottomn	0	bash	:/bin/bash ./script.sh
-window	fau_crawler	1	0	:-	b5dd,235x61,0,0,0
-window	fau_crawler	2	1	:*	4797,235x61,0,0[235x44,0,0,1,235x16,0,45{83x16,0,45,3,93x16,84,45,5,57x16,178,45[57x13,178,45,7,57x2,178,59,8]}]
-state	fau_crawler	
