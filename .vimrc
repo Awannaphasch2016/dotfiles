@@ -89,6 +89,7 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': 
 Plug 'ervandew/supertab'
 Plug 'michaeljsmith/vim-indent-object' 
 Plug 'craigemery/vim-autotag'
+Plug 'airblade/vim-rooter'
 
 " Plug 'davidhalter/jedi-vim'
 " Plug 'Valloric/YouCompleteMe'
@@ -103,7 +104,6 @@ Plug 'craigemery/vim-autotag'
 " Plug 'vifm/vifm.vim'
 " Plug 'airblade/vim-gitgutter' "can't get it to work at all not even the default
 " Plug 'albfa/ag.vim'
-" Plug 'airblade/vim-rooter'
 " Plug 'tmux-plugins/tmux-resurrect'
 " Plug 'fannheyward/coc-pyright'
 " Plug 'haya14busa/is.vim'
