@@ -110,7 +110,7 @@
       },
       {
         "architecture": 3,
-        "path": "/home/awannaphasch2016/anaconda3/envs/py38/bin/python",
+        "path": "/home/awannaphasch2016/anaconda3/bin/python",
         "version": {
           "options": {
             "loose": false,
@@ -127,12 +127,12 @@
           "build": [],
           "version": "3.8.5-final"
         },
-        "sysPrefix": "/home/awannaphasch2016/anaconda3/envs/py38",
-        "fileHash": "73ba930677e22b038ebf1bd27cc26e4a3056a29bdd65a68bb5a02e99d0010a6599b0d9ff571b436d193623075fc77f22c73f093dd1bc20e0db6746d2a5beb59c",
+        "sysPrefix": "/home/awannaphasch2016/anaconda3",
+        "fileHash": "dfce83aaf1135bad8506465f61e2fea205f417e267e9f5a5f283d05687f4975d861062ee0430dc3dae8922787c94c367d7697db276c98a128ced13cf20d5cc74",
         "companyDisplayName": "Anaconda, Inc.",
         "type": "Conda",
-        "envPath": "/home/awannaphasch2016/anaconda3/envs/py38",
-        "envName": "py38"
+        "envPath": "/home/awannaphasch2016/anaconda3",
+        "envName": "base"
       }
     ],
     "/bin/python2.7.v3": {
@@ -438,7 +438,7 @@
     "INTERPRETERS_CACHE_v3_CurrentPathService": [
       {
         "architecture": 3,
-        "path": "/home/awannaphasch2016/anaconda3/envs/py38/bin/python3",
+        "path": "/home/awannaphasch2016/anaconda3/bin/python3",
         "version": {
           "options": {
             "loose": false,
@@ -455,13 +455,13 @@
           "build": [],
           "version": "3.8.5-final"
         },
-        "sysPrefix": "/home/awannaphasch2016/anaconda3/envs/py38",
-        "fileHash": "ffd21c6f8c6cad5fe86fcacdf993e1542c7e697531f6e5b48882ecc94d92c30c01b7762a549d242486c7ee82ed615807cc3330c0c1896290e79e10105fdf24e1",
+        "sysPrefix": "/home/awannaphasch2016/anaconda3",
+        "fileHash": "dfce83aaf1135bad8506465f61e2fea205f417e267e9f5a5f283d05687f4975d861062ee0430dc3dae8922787c94c367d7697db276c98a128ced13cf20d5cc74",
         "type": "Unknown"
       },
       {
         "architecture": 3,
-        "path": "/home/awannaphasch2016/anaconda3/envs/py38/bin/python",
+        "path": "/home/awannaphasch2016/anaconda3/bin/python",
         "version": {
           "options": {
             "loose": false,
@@ -478,8 +478,8 @@
           "build": [],
           "version": "3.8.5-final"
         },
-        "sysPrefix": "/home/awannaphasch2016/anaconda3/envs/py38",
-        "fileHash": "73ba930677e22b038ebf1bd27cc26e4a3056a29bdd65a68bb5a02e99d0010a6599b0d9ff571b436d193623075fc77f22c73f093dd1bc20e0db6746d2a5beb59c",
+        "sysPrefix": "/home/awannaphasch2016/anaconda3",
+        "fileHash": "dfce83aaf1135bad8506465f61e2fea205f417e267e9f5a5f283d05687f4975d861062ee0430dc3dae8922787c94c367d7697db276c98a128ced13cf20d5cc74",
         "type": "Unknown"
       },
       {
@@ -507,75 +507,6 @@
       }
     ],
     "INTERPRETERS_CACHE_v3_KnownPathsService": [
-      {
-        "architecture": 3,
-        "path": "/home/awannaphasch2016/anaconda3/envs/py38/bin/python",
-        "version": {
-          "options": {
-            "loose": false,
-            "includePrerelease": false
-          },
-          "loose": false,
-          "raw": "3.8.5-final",
-          "major": 3,
-          "minor": 8,
-          "patch": 5,
-          "prerelease": [
-            "final"
-          ],
-          "build": [],
-          "version": "3.8.5-final"
-        },
-        "sysPrefix": "/home/awannaphasch2016/anaconda3/envs/py38",
-        "fileHash": "73ba930677e22b038ebf1bd27cc26e4a3056a29bdd65a68bb5a02e99d0010a6599b0d9ff571b436d193623075fc77f22c73f093dd1bc20e0db6746d2a5beb59c",
-        "type": "Unknown"
-      },
-      {
-        "architecture": 3,
-        "path": "/home/awannaphasch2016/anaconda3/envs/py38/bin/python3",
-        "version": {
-          "options": {
-            "loose": false,
-            "includePrerelease": false
-          },
-          "loose": false,
-          "raw": "3.8.5-final",
-          "major": 3,
-          "minor": 8,
-          "patch": 5,
-          "prerelease": [
-            "final"
-          ],
-          "build": [],
-          "version": "3.8.5-final"
-        },
-        "sysPrefix": "/home/awannaphasch2016/anaconda3/envs/py38",
-        "fileHash": "ffd21c6f8c6cad5fe86fcacdf993e1542c7e697531f6e5b48882ecc94d92c30c01b7762a549d242486c7ee82ed615807cc3330c0c1896290e79e10105fdf24e1",
-        "type": "Unknown"
-      },
-      {
-        "architecture": 3,
-        "path": "/home/awannaphasch2016/anaconda3/envs/py38/bin/python3.8",
-        "version": {
-          "options": {
-            "loose": false,
-            "includePrerelease": false
-          },
-          "loose": false,
-          "raw": "3.8.5-final",
-          "major": 3,
-          "minor": 8,
-          "patch": 5,
-          "prerelease": [
-            "final"
-          ],
-          "build": [],
-          "version": "3.8.5-final"
-        },
-        "sysPrefix": "/home/awannaphasch2016/anaconda3/envs/py38",
-        "fileHash": "a5b28682b521578ee00e8a5c656cb1780a0c74c039ae10f9f15e5eed326a2a62d4cab81db52d6ab2671d20d9f5f7f6d8d4f4e7afd7b32c985ae55949762b7d71",
-        "type": "Unknown"
-      },
       {
         "architecture": 3,
         "path": "/home/awannaphasch2016/anaconda3/bin/python",
