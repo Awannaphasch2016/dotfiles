@@ -116,17 +116,46 @@ if ! shopt -oq posix; then
   fi
 fi
 
-
-export PS1 = "[\t]"
-
-# force tmux to use 256 color
-alias tmux="TERM=screen-256color-bce tmux"
-
-# disable CTRL-S default, which is a terminal command to freeze the output
-# stty -ixon
-
+# --- custom additions (Anak) ---
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+# export PATH="$PATH:$HOME/.config/emacs/bin"
+export PATH="$HOME/.local/bin:$PATH"
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"
+[ -x "$(command -v pyenv)" ] && eval "$(pyenv init -)"
 
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+# --- SUDO: refresh only if already authenticated (no prompt) ---
+if [ -n "$PS1" ] && command -v sudo >/dev/null 2>&1; then
+  if sudo -n true 2>/dev/null; then
+    # You already have a sudo timestamp; refresh it silently in the background.
+    ( while sleep 60; do sudo -n -v >/dev/null 2>&1 || break; done ) &
+    disown
+  fi
+fi
+. "$HOME/.cargo/env"
+
+
+# # color for terminal
+# # Dark
+# printf '\e]11;#000000\a
+# # Dark green terminal background
+# printf '\e]11;#006400\a'
+# # Dark brown terminal background
+# printf '\e]11;#654321\a'
+# # Dark blue terminal background
+# printf '\e]11;#00008B\a'
+
+alias emacs="doom emacs"
+
+# sudo tee /usr/local/bin/nyxt >/dev/null <<'EOF'
+# #!/bin/sh
+# exec flatpak run engineer.atlas.Nyxt "$@"
+# EOF
+# sudo chmod +x /usr/local/bin/nyxt
+
+# ~/.bashrc
+if [ -f "$HOME/dotfiles/.bashrc" ]; then
+  source "$HOME/dotfiles/.bashrc"
+fi
