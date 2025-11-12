@@ -147,7 +147,7 @@ fi
 # # Dark blue terminal background
 # printf '\e]11;#00008B\a'
 
-alias emacs="doom emacs"
+alias emacs="doom run"
 
 # sudo tee /usr/local/bin/nyxt >/dev/null <<'EOF'
 # #!/bin/sh
@@ -155,7 +155,11 @@ alias emacs="doom emacs"
 # EOF
 # sudo chmod +x /usr/local/bin/nyxt
 
-# ~/.bashrc
-if [ -f "$HOME/dotfiles/.bashrc" ]; then
-  source "$HOME/dotfiles/.bashrc"
-fi
+# # ~/.bashrc
+# if [ -f "$HOME/dotfiles/.bashrc" ]; then
+#   source "$HOME/dotfiles/.bashrc"
+# fi
+export PATH="$HOME/bin:$PATH"
+
+# opencode
+export PATH=/home/anak/.opencode/bin:$PATH
